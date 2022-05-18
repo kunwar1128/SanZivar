@@ -13,16 +13,15 @@
 
 
 
-
 /* Title Section */
-#title {
+#navbar_top {
     /* height: 100vh; */
 }
 
 /* Navbar */
 
 .navbar{
-    pointer-events: none; /* prohibits blocking the links */
+    /* pointer-events: none; prohibits blocking the links */
 }
 
 .navbar-light .navbar-toggler {
@@ -31,14 +30,14 @@
 }
 
 .logo-image {
-    width: 8em;
+    width: 2.5em;
     pointer-events: all;
 }
 
 .navbar-brand {
-    /* margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
-    padding-right: 2em; */ /* For having the call button in center*/
+    padding-right: 2em; /* For having the call button in center*/
 }
 
 .navbar-nav {
@@ -70,7 +69,8 @@
   }
 
 .offcanvasOnField {
-    background-color: rgb(0, 39, 89);
+    /* background-color: rgb(0, 39, 89); */
+    background-color: rgba(44,59,90,255);
     flex: 0 0 320px; /* do not grow, do not shrink, start at 320px */
 }
 
@@ -104,33 +104,49 @@
     overflow: hidden;
 }
 
+.nav-link{
+    color: gold;
+}
+.nav-link:hover{
+    color: rgb(250, 241, 192);
+}
+
 
 
 /* Header Section: Welcome */
 
-.header-content{
+
+#header {
     height: 100vh;
+    position: sticky;
+    top: 0;
+    /* z-index: -6; */
+}
+
+.header-content{
+    /* height: 100vh; */
 }
 
 .background_image_1 {
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 100vh;
-    z-index: -5;
+    z-index: -6;
     margin: 0;
     padding: 0;
     object-fit: cover;
 }
 
 .welcome{
-    position: fixed;
+    position: absolute;
     height: 100vh;
-    text-align: center;
+    /* text-align: center; */
     right: 0;
     width: 100%;
     margin: 0;
-    z-index: -5;
-    /* color: white; */
+    padding-left: 5%;
+    z-index: -6;
+    color: gold;
 }
 
 .welcome-text{
@@ -147,40 +163,149 @@
     font-style: italic;
 }
 
-.welcome-text2-adj{
+/* .welcome-text2-adj{
     letter-spacing: -2px;
-}
+} */
 
 
 
 
 
-/* About Us */
 
-#about_us{
-    background-color: white;
-    height: 100vh;
+
+
+
+/* Type_of_services */
+
+#type_of_services{
+    /* background-color: rgb(0, 39, 89); */
+    background-color: rgba(44,59,90,255);
+    /* height: 100vh; */
     position: sticky;
-    top: 0;
+    /* top: 0; */
 }
 
 
-.about_us_body {
-    text-align: center;
-    height: 100vh;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+.type_of_services_body {
+    /* text-align: center; */
+    /* height: 100vh; */
+    /* max-width: 600px; */
+    /* margin-left: auto;
+    margin-right: auto; */
     font-family: 'Kurale', serif;
     font-style: italic;
-    /* color: wheat; */
-    color: black;
+    color: gold;
 }
 
-.about_us_body h1{
-    letter-spacing: 0.2em;
+
+.type_of_services_body img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.type_of_services_body div{
+    padding: 30px;
+}
+
+.type_of_services_body .text{
+    /* margin-top: 100px;
+    margin-left: 100px; */
+    /* height: 100%; */
+    /* width: 100%; */
+    text-align: center;
+
+}
+
+.type_of_services_body h1{
+    letter-spacing: 0.1em;
     padding-bottom: 20px;
 }
+
+.card{
+    /* height: 250px;
+    width: 275px; */
+    height: 100%;
+    width: 70%;
+    border-radius: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    /* padding: 0 !important; */
+    background-color: rgba(92,114,163,255);
+}
+
+.card img{
+    border-radius: 50px 50px 0 0;
+    width: 100%;
+    height: 50%;
+    /* object-fit: cover; */
+}
+
+.card-text{
+    font-style: italic;
+    text-decoration: underline;
+    bottom: 0;
+}
+
+#services a{
+    color: gold;
+    text-decoration: none;
+}
+#services a:hover{
+    color: rgb(233, 233, 200);
+}
+.card-title{
+    color: gold;
+}
+
+
+#services, #services .row, #services .col, 
+#services .card, #services .card-body{
+    padding: 0;
+}
+
+#services .card-body{
+    padding-top: 5%;
+}
+
+#services .col{
+    height: 25vh;
+}
+
+
+
+
+/* Don't know what to call this yet */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Stop Testing */
+
+#stop1{
+    height: 100vh;
+    position: sticky;
+    bottom: 0;
+    top: 0;
+    background-color: rgb(0, 39, 89);
+    z-index: -5;
+}
+
+
+
+
+
 
 
 
@@ -449,18 +574,28 @@
         margin: 1.6em 0;
     }
 
+
     /* About Us */
-    .about_us_body{
+    .type_of_services_body{
         font-size: 18px;
     }
 
+}
+
+@media (min-width: 992px) {
+
+    /* Type of Services */
+
+    .side_image_left {
+        height: 100vh;
+    }
 }
 
 
 @media (min-width: 2000px) {
 
     /* About Us */
-    .about_us_body{
+    .type_of_services_body{
         font-size: 20px;
     }
 
@@ -510,6 +645,12 @@
         padding-bottom: 25vh;
     }
 
+    /* Type of Services */
+
+    .side_image_left {
+        height: 50vh;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -521,6 +662,8 @@
     }
 
     /* Header Welcome */
+
+    /* Header Section */
 
     .welcome-text{
         font-size: 32px;
@@ -534,12 +677,6 @@
         letter-spacing: -1px;
     }
 
-
-    /* About Us */
-
-    .about_us_body{
-        max-width: 390px;
-    }
     
 
     /* tetestimonial Section */

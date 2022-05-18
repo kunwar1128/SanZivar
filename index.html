@@ -31,6 +31,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="css/hamburgers.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/menu.css"> -->
 
 
 
@@ -38,17 +39,20 @@
 
 <body>
 
-    <section id="title">
-        <nav class="navbar navbar-light fixed-top">
+    <section id="navbar_top">
+        <nav class="navbar  fixed-top">
             <div class="container-fluid">
-                <button id="offcanvasClose" class="hamburger hamburger--collapse" type="button"
-                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <button id="offcanvasClose" class="hamburger hamburger--spin" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="hamburger-box">
                         <span class="hamburger-inner"></span>
                     </span>
                 </button>
-                <a class="navbar-brand" href="tel:647-870-5321"><img class="logo-image img-fluid" src="images/giannis-logo.png" alt="Gianni's"></a>
-                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <a class="navbar-brand" href="#"><img class="logo-image img-fluid" src="images/logo9.png"
+                        alt="SanZivar"></a>
+                <a class="call_button" href="tel:647-870-5321"><button>Call Now!</button></a>
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-entire-field">
                         <div class="offcanvasOnField">
                             <div class="offcanvas-body">
@@ -58,10 +62,12 @@
                                             href="#">Home</a>
                                     </li>
                                     <li class="nav-item" data-bs-toggle="offcanvas">
-                                        <a onclick="myFunction()" class="nav-link" href="#about_us_link">About Us</a>
+                                        <a onclick="myFunction()" class="nav-link" href="#type_of_services_link">Type of
+                                            Services</a>
                                     </li>
                                     <li class="nav-item" data-bs-toggle="offcanvas">
-                                        <a onclick="myFunction()" class="nav-link" href="#tetestimonial_link">Tetestimonials</a>
+                                        <a onclick="myFunction()" class="nav-link"
+                                            href="#tetestimonial_link">Tetestimonials</a>
                                     </li>
                                     <li class="nav-item" data-bs-toggle="offcanvas">
                                         <a onclick="myFunction()" class="nav-link" href="menu.html">Menu</a>
@@ -81,46 +87,156 @@
                 </div>
             </div>
         </nav>
+
+    </section>
+
+
+
+    <section id="header">
         <div class="header-content">
             <img class="background_image_1" src="images/background_images/wallpaper_1.jpg" alt="Italian Trulli">
             <div class="container">
                 <div class="welcome row align-items-center">
                     <div class="col">
-                        <h1 class="welcome-text">Welcome to Gianni's</h1>
-                        <h3 class="welcome-text2">Pizz<span class="welcome-text2-adj">a + </span>Past<span class="welcome-text2-adj">a + </span>Italian Sandwiches</h3>
+                        <h1 class="welcome-text">San Zivar</h1>
+                        <h3 class="welcome-text2">Cleaning Company</h3>
+                        <button>Services</button><button>Get Free Estimate</button>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
 
 
 
 
     <!-- This section is to fix the scrolling issue of navbar links (anchors) -->
-    <section id="about_us_link"></section>
+    <section id="type_of_services_link"></section>
 
-    <section id="about_us">
+    <section id="type_of_services">
 
         <picture>
-            <img class="background_image_2" src="images/background_images/wallpaper-17.jpg">
+            <!-- <img class="background_image_2" src="images/background_images/wallpaper-17.jpg"> -->
         </picture>
-        
-        <div class="container">
-            <div class="about_us_body row align-items-center">
-                <div class="col">
-                    <h1>About Us</h1>
-                    <p>Gianni's offers traditional, homemade Italian dishes to the Pape and Danforth area. Using authentic recipes and the finest of ingredients, we know that flavour is key! Try ordering from Gianni's today! Not sure what to order? Check out the Fried Calamari Dinner, the Chicken Souvlaki, or grab a bite of the Homemade Spanakopita!</p>
+
+        <div class="container-fluid">
+            <div class="type_of_services_body row">
+                <div class="col-lg-6 col-12 side_image_left">
+                    <img class="background_image_22" src="images/background_images/wallpaper_2.jpg">
+                </div>
+
+                <div class="col-lg-6 col-12 text">
+                    <h1>Services We Offer</h1>
+                    <div id="services" class="container">
+
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-xl-2 g-4">
+
+                            <div class="col">
+                                <a href="#">
+                                    <div class="card">
+                                        <img src="images/i1.jpeg" class="" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Post Construction Cleaning</h5>
+                                            <p class="card-text">Click to learn more</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="#">
+                                    <div class="card">
+                                        <img src="images/i2.webp" class="" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">AirBNB Cleaning</h5>
+                                            <p class="card-text">Click to learn more</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="#">
+                                    <div class="card">
+                                        <img src="images/i3.webp" class="" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">On Going Service</h5>
+                                            <p class="card-text">Click to learn more</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="#">
+                                    <div class="card">
+                                        <img src="images/i4.webp" class="" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">COVID Disinfecting</h5>
+                                            <p class="card-text">Click to learn more</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="#">
+                                    <div class="card">
+                                        <img src="images/i5.jpg" class="" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title veg_card">Commercial Cleaning</h5>
+                                            <p class="card-text">Click to learn more</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="#">
+                                    <div class="card">
+                                        <img src="images/i6.jpg" class="" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Post Renovation</h5>
+                                            <p class="card-text">Click to learn more</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
-        
+
+        <div>
+            <p>hello world</p>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <div class="type_of_services_body row">
+                
+                <div class="col-lg-6 col-12 text">
+                    <h1>Services We Offer</h1>
+                </div>
+                <div class="col-lg-6 col-12 side_image_right">
+                    <img class="background_image_22" src="images/background_images/wallpaper_2.jpg">
+                </div>
+
+            </div>
+        </div>
     </section>
 
 
+    <section id="stop1">
+        <p>test</p>
+    </section>
 
-    
+
     <!-- This section is to fix the scrolling issue of navbar links (anchors) -->
     <section id="tetestimonial_link"></section>
 
@@ -135,84 +251,101 @@
         </picture>
 
         <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            
+
             <div class="carousel-inner">
 
-              <div class="carousel-item active">
+                <div class="carousel-item active">
 
-                <div class="container">
-                    <div class="tetestimonial row align-items-center">
-                        <div class="col">
-                            <div class="tetestimonial-heading">“</div>
-                            <div class="tetestimonial-text g-t-1">“The best food and friendliest service ever!  We came upon this restaurant when we were stuck in the city with car troubles.  It ended up being the best experience!  Husband had the veal sandwich which he absolutely loved.  I had the cheese pizza. Perfect crust, amazing homemade sauce and lots of cheese!”</div>
-                            <p class="tetestimonial-footer"><span>★ ★ ★ ★ ★</span><br>- Kim Lauretta</p>
+                    <div class="container">
+                        <div class="tetestimonial row align-items-center">
+                            <div class="col">
+                                <div class="tetestimonial-heading">“</div>
+                                <div class="tetestimonial-text g-t-1">“The best food and friendliest service ever! We
+                                    came upon this restaurant when we were stuck in the city with car troubles. It ended
+                                    up being the best experience! Husband had the veal sandwich which he absolutely
+                                    loved. I had the cheese pizza. Perfect crust, amazing homemade sauce and lots of
+                                    cheese!”</div>
+                                <p class="tetestimonial-footer"><span>★ ★ ★ ★ ★</span><br>- Kim Lauretta</p>
+                            </div>
                         </div>
                     </div>
+
                 </div>
+                <div class="carousel-item">
 
-              </div>
-              <div class="carousel-item">
-
-                <div class="container">
-                    <div class="tetestimonial row align-items-center">
-                        <div class="col">
-                            <div class="tetestimonial-heading">“</div>
-                            <div class="tetestimonial-text g-t-2">“Delicious! Always such great quality pasta and pizza. Tastes just like how they make it in the Mediterranean! Fair prices and always great service, our new dinner spot for those busy days! 10/10 recommend!”</div>
-                            <p class="tetestimonial-footer"><span>★ ★ ★ ★ ★</span><br>- Paula</p>
+                    <div class="container">
+                        <div class="tetestimonial row align-items-center">
+                            <div class="col">
+                                <div class="tetestimonial-heading">“</div>
+                                <div class="tetestimonial-text g-t-2">“Delicious! Always such great quality pasta and
+                                    pizza. Tastes just like how they make it in the Mediterranean! Fair prices and
+                                    always great service, our new dinner spot for those busy days! 10/10 recommend!”
+                                </div>
+                                <p class="tetestimonial-footer"><span>★ ★ ★ ★ ★</span><br>- Paula</p>
+                            </div>
                         </div>
                     </div>
+
                 </div>
 
-              </div>
+                <div class="carousel-item">
 
-              <div class="carousel-item">
-
-                <div class="container">
-                    <div class="tetestimonial row align-items-center">
-                        <div class="col">
-                            <div class="tetestimonial-heading">“</div>
-                            <div class="tetestimonial-text g-t-3">“Great new shop serving hot Italian sandwiches, pizza, and pasta. The veal sandwiches were very tasty and portions were large. Sandwiches were made on fresh bread, with nicely seasoned tomato sauce, and a very thick and generous piece of breaded veal.”</div>
-                            <p class="tetestimonial-footer"><span>★ ★ ★ ★ ★</span><br>- Jenny Lam</p>
+                    <div class="container">
+                        <div class="tetestimonial row align-items-center">
+                            <div class="col">
+                                <div class="tetestimonial-heading">“</div>
+                                <div class="tetestimonial-text g-t-3">“Great new shop serving hot Italian sandwiches,
+                                    pizza, and pasta. The veal sandwiches were very tasty and portions were large.
+                                    Sandwiches were made on fresh bread, with nicely seasoned tomato sauce, and a very
+                                    thick and generous piece of breaded veal.”</div>
+                                <p class="tetestimonial-footer"><span>★ ★ ★ ★ ★</span><br>- Jenny Lam</p>
+                            </div>
                         </div>
                     </div>
+
                 </div>
 
-              </div>
+                <div class="carousel-item">
 
-              <div class="carousel-item">
-
-                <div class="container">
-                    <div class="tetestimonial row align-items-center">
-                        <div class="col">
-                            <div class="tetestimonial-heading">“</div>
-                            <div class="tetestimonial-text g-t-4">“I ordered the Fettuccine off the new menu.
-                                Great meal and a large portion size too.
-                                Super friendly service and got my meal cooked by the owner himself lol. I look forward to eating there again.”</div>
-                            <p class="tetestimonial-footer"><span>★ ★ ★ ★ ★</span><br>- Sterling Demetro</p>
+                    <div class="container">
+                        <div class="tetestimonial row align-items-center">
+                            <div class="col">
+                                <div class="tetestimonial-heading">“</div>
+                                <div class="tetestimonial-text g-t-4">“I ordered the Fettuccine off the new menu.
+                                    Great meal and a large portion size too.
+                                    Super friendly service and got my meal cooked by the owner himself lol. I look
+                                    forward to eating there again.”</div>
+                                <p class="tetestimonial-footer"><span>★ ★ ★ ★ ★</span><br>- Sterling Demetro</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-              </div>
+                </div>
 
             </div>
 
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
             </div>
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
-          </div>
+        </div>
 
 
     </section>
@@ -244,14 +377,15 @@
                     <div class="row justify-content-center">
                         <div class="col-9">
                             <h3 class="f_u_g">Gianni's</h3>
-                            <h5>Pizz<span class="f_u_g-adj">a + </span>Past<span class="f_u_g-adj">a + </span>Italian Sandwiches</h5>
+                            <h5>Pizz<span class="f_u_g-adj">a + </span>Past<span class="f_u_g-adj">a + </span>Italian
+                                Sandwiches</h5>
                             <p>877 Pape Ave
-                            <br>East York, ON M4K 3T9
-                            <br><span class="find_us_bold">(416) 465-5550</span>
-                            <br><span>john@giannispasta.com</span></p>
+                                <br>East York, ON M4K 3T9
+                                <br><span class="find_us_bold">(416) 465-5550</span>
+                                <br><span>john@giannispasta.com</span></p>
                             <hr>
                             <p id="find_us_adj">Pick up or delivery available
-                            <br>We cater</p>
+                                <br>We cater</p>
                             <p class="l_f_u_adj">For catering or more info contact us
                                 via email or phone</p>
 
@@ -307,7 +441,7 @@
 
     <!-- Bootstrap 5 Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 
 
@@ -344,20 +478,19 @@
             document.getElementById("offcanvasClose").classList.remove("is-active");
         }
 
-        
+
 
 
         var myTarget = document.querySelector('.follow_us');
         var logo_image = document.querySelector('.logo-image');
 
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             var rect = myTarget.getBoundingClientRect();
             y = rect.top;
 
-            if(y <= 85){
+            if (y <= 85) {
                 logo_image.style.visibility = "hidden";
-            }
-            else{
+            } else {
                 logo_image.style.visibility = "initial";
             }
 
@@ -367,12 +500,11 @@
 
         // var y = document.getElementById("gmap_canvas").height;
         // document.getElementById("right_find_us").style.height = y+"px";
-
     </script>
 
-    
 
-    
+
+
 
 </body>
 
