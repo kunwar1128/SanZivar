@@ -182,7 +182,7 @@
                             <div class="col">
                                 <a href="#">
                                     <div class="card">
-                                        <img src="images/i5.jpg" class="" alt="...">
+                                        <img src="images/i5.jpg" class="switching_zIndex" alt="...">
                                         <div class="card-body">
                                             <h5 class="card-title veg_card">Commercial Cleaning</h5>
                                             <p class="card-text">Click to learn more</p>
@@ -210,26 +210,26 @@
             </div>
         </div>
 
-        <div>
-            <p>hello world</p>
-        </div>
+        <!-- <div class="container-fluid">
+            <div class="slogan_container row">
 
-    </section>
-
-    <section>
-        <div class="container-fluid">
-            <div class="type_of_services_body row">
-                
                 <div class="col-lg-6 col-12 text">
-                    <h1>Services We Offer</h1>
+                    
                 </div>
+
                 <div class="col-lg-6 col-12 side_image_right">
-                    <img class="background_image_22" src="images/background_images/wallpaper_2.jpg">
+                    <img src="images/image1.png" class="background_image_33">
                 </div>
 
             </div>
-        </div>
+        </div> -->
+
+        <!-- <div>
+            <img src="images/s_img2.png" class="hehe1">
+        </div> -->
+
     </section>
+
 
 
     <section id="stop1">
@@ -492,6 +492,22 @@
                 logo_image.style.visibility = "hidden";
             } else {
                 logo_image.style.visibility = "initial";
+            }
+
+        })
+
+
+        var myTarget1 = document.querySelector('.switching_zIndex');
+        var logo_image1 = document.querySelector('#header');
+
+        window.addEventListener('scroll', function () {
+            var rect = myTarget1.getBoundingClientRect();
+            y = rect.top;
+
+            if (y <= 85) {
+                logo_image1.style.zIndex = "-5";
+            } else {
+                logo_image1.style.zIndex = "-4";
             }
 
         })
