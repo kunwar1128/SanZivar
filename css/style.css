@@ -317,9 +317,9 @@
 /* carousel_photos */
 
 #carousel_photos{
-    height: 130vh;
+    height: 120vh;
     position: sticky;
-    bottom: -30vh;
+    bottom: -20vh;
     top: 0;
     background-color: rgb(0, 39, 89);
 }
