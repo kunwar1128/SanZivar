@@ -351,6 +351,18 @@
 
 
 
+/* Why choose Us */
+
+#why_choose_us{
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    background-color: rgba(44,59,90,255);
+}
+
+
+
+
 
 
 
@@ -689,11 +701,32 @@
         padding-bottom: 25vh;
     }
 
+
+
     /* Type of Services */
 
     .side_image_left {
         height: 50vh;
     }
+
+
+    /* carousel_photos */
+
+    .carousel-item img{
+        width: 100%;
+        height: 65vh;
+        margin-top: 20vh;
+    }
+
+    .carousel-item .photo_potrait{
+        width: auto;
+    }
+
+    .carousel-control-prev, .carousel-control-next{
+        padding-top: 20vh;
+    }
+
+    
 
 
 }
@@ -768,6 +801,19 @@
 @media (max-width: 575px) {
 
 
+    /* Find Us */
+    .find_us_body hr{
+        width: 250px;
+    }
+    .find_us_body th,td{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 475px) {
+
+    
+
     /* carousel_photos */
 
     .carousel-item img{
@@ -781,16 +827,6 @@
     }
 
 
-    /* Find Us */
-    .find_us_body hr{
-        width: 250px;
-    }
-    .find_us_body th,td{
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 475px) {
 
     /* tetestimonial Section */
 
