@@ -236,7 +236,7 @@
 
 
     <section id="carousel_photos">
-        <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="false">
+        <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="false">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -308,7 +308,10 @@
             <div class="slogan_container row">
 
                 <div class="col-lg-6 col-12 order-lg-1 order-2 text">
-                    <p>Professional quality cleaning with a personal touch</p>
+                    <h1>Why Choose San Zivar?</h1>
+                    <p>San Zivar was established in 1989 by Bahman (Bob) Geran, as a family owned and operated business, specializing in rug & carpet cleaning and water damage restoration.</p>
+                    <p>We have built many great relationships with our valued customers over the years. Our customer satisfaction and high demand enabled us to expand our services to serve our community better. We love what we do and treat each customer with respect & courtesy.</p>
+                    <p>Now, Bob, the owner and operator of 5 Star Cleaning and 5 Star Dry All, employees certified and professional technicians with many years of experience to proudly serve the GTA and Toronto areas. 5 Star Cleaning provides the best cleaning & restoration services.</p>
                     <button>Call Us</button>
                 </div>
 
@@ -598,6 +601,17 @@
 
         })
 
+
+
+
+        var myCarousel = document.querySelector('#myCarousel')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            interval: 4000,
+            wrap: false,
+            touch: true,
+            ride: 'carousel',
+            keyboard: true
+        })
 
 
         // var y = document.getElementById("gmap_canvas").height;
