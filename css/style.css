@@ -277,7 +277,7 @@
 }
 
 .side_image_right{
-    text-align: right;
+    text-align: center;
 }
 
 .background_image_33{
@@ -354,11 +354,130 @@
 /* Why choose Us */
 
 #why_choose_us{
-    height: 100vh;
-    position: sticky;
-    top: 0;
+    position: relative;
+    /* top: 0vh; */
     background-color: rgba(44,59,90,255);
 }
+
+
+
+
+.expect {
+    color: gold;
+    background-color: rgb(97, 144, 238);
+    border-radius: 15px 0 0 3px;
+    margin: 0;
+    width: 85vw;
+    margin-left: auto;
+    padding: 10vh;
+    padding-bottom: 7vh;
+}
+
+.expect div {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.expect_header {
+    padding-bottom: 70px
+}
+.expect .row{
+    /* padding-bottom: 70px; */
+}
+
+.expect h1{
+    text-align: center;
+}
+
+.expect .col-lg-6{
+    max-width: 500px;
+    margin-right: 0;
+    margin-left: 0;
+    margin: 0 50px 70px 50px;
+}
+
+
+
+
+
+
+
+
+/* Call Us */
+
+#call_us{
+    position: relative;
+    background-color: rgb(70, 88, 123);
+    color: gold;
+    text-align: center;
+    padding: 70px 0 50px 0;
+}
+
+#call_us h1, h3 {
+    margin-bottom: 50px;
+}
+#call_us button, h4{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+/* Footer */
+
+#footer{
+    position: relative;
+    background-color: rgba(44,59,90,255);
+}
+
+#footer a{
+    text-decoration: none;
+}
+
+#footer .footer_logo_text{
+    font-family: 'Kurale', serif;
+    /* font-size: 50px; */
+    font-size: 30px;
+    font-style: italic;
+    color: gold;
+}
+
+#footer .logo-image2{
+    /* width: 2.5rem; */
+    width: 1.5rem;
+    vertical-align: 0;
+    /* margin-left: 25px; */
+    margin-left: 15px;
+}
+
+#footer .about_us h4, h5{
+    font-size: 15px;
+    text-align: center;
+}
+
+#footer .follow-us{
+    text-align: center;
+}
+
+#footer .follow-us .fa{
+    font-size: 30px;
+}
+#footer .follow-us .fa-facebook{
+    margin-right: 50px;
+}
+
+#footer .payment .row{
+    text-align: center;
+    justify-content: center;
+}
+#footer .payment img{
+    /* width: 6rem; */
+    width: 3.5rem;
+}
+
 
 
 
@@ -726,6 +845,20 @@
         padding-top: 20vh;
     }
 
+
+
+    /* Why choose Us */
+
+    .expect {
+        width: 90vw;
+        padding: 3vh;
+        padding-bottom: 7vh;
+    }
+
+    .expect .col-lg-6{
+        margin-bottom: 50px;
+    }
+
     
 
 
@@ -753,6 +886,13 @@
 
     .welcome-text2-adj{
         letter-spacing: -1px;
+    }
+
+
+    /* Why choose Us */
+
+    #why_choose_us{
+        /* top: -30vh; */
     }
 
     
