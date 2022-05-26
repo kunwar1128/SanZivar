@@ -354,7 +354,7 @@
 /* Why choose Us */
 
 #why_choose_us{
-    position: relative;
+    position: sticky;
     /* top: 0vh; */
     background-color: rgba(44,59,90,255);
 }
@@ -407,7 +407,7 @@
 /* Call Us */
 
 #call_us{
-    position: relative;
+    position: sticky;
     background-color: rgb(70, 88, 123);
     color: gold;
     text-align: center;
@@ -429,7 +429,7 @@
 /* Footer */
 
 #footer{
-    position: relative;
+    position: sticky;
     background-color: rgba(44,59,90,255);
 }
 
