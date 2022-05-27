@@ -437,307 +437,82 @@
     text-decoration: none;
 }
 
+#footer .footer_logo{
+    width: 90%;
+    margin: 40px 0 40px 10%;
+    padding: 0;
+    text-align: left;
+}
+
 #footer .footer_logo_text{
     font-family: 'Kurale', serif;
-    /* font-size: 50px; */
-    font-size: 30px;
+    font-size: 50px;
     font-style: italic;
     color: gold;
 }
 
 #footer .logo-image2{
-    /* width: 2.5rem; */
-    width: 1.5rem;
+    width: 2.5rem;
     vertical-align: 0;
-    /* margin-left: 25px; */
+    margin-left: 25px;
     margin-left: 15px;
 }
 
 #footer .about_us h4, h5{
-    font-size: 15px;
     text-align: center;
+}
+
+#footer .about_us h4{
+    font-size: 25px;
+    margin-bottom: 23px;
+}
+
+#footer .about_us h5{
+    font-size: 18px;
+    margin-bottom: 12px;
 }
 
 #footer .follow-us{
     text-align: center;
 }
 
+#footer .follow-us h4 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
 #footer .follow-us .fa{
-    font-size: 30px;
+    font-size: 35px;
 }
 #footer .follow-us .fa-facebook{
-    margin-right: 50px;
+    margin-right: 60px;
+}
+
+
+#footer .payment {
+    margin-top: 50px;
+    padding-bottom: 40px;
 }
 
 #footer .payment .row{
     text-align: center;
     justify-content: center;
 }
+
+#footer .payment h4 {
+    font-size: 25px;
+    margin-bottom: 27px;
+}
+
 #footer .payment img{
-    /* width: 6rem; */
-    width: 3.5rem;
+    width: 4.3rem;
+    padding: 0 5px;
 }
 
 
 
 
 
-
-
-
-
-/* tetestimonial Section */
-
-#tetestimonial {
-    height: 100vh;
-    position: sticky;
-    top: 0;
-}
-
-.background_image_2 {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    z-index: -5;
-    margin: 0;
-    padding: 0;
-    object-fit: cover;
-}
-
-.tetestimonial{
-    text-align: center;
-    height: 100vh;
-    padding-top: 20px;
-}
-
-
-.tetestimonial-heading{
-    font-size: 100px;
-    font-family:'Times New Roman', Times, serif;
-    letter-spacing: 0.2em;
-    font-weight: bold;
-}
-
-.tetestimonial-text{
-    font-size: 20px;
-    font-family: 'Kurale', serif;
-    font-style: italic;
-    max-width: 470px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.g-t-2,.g-t-3{
-    max-width: 490px;
-}
-
-.tetestimonial-footer{
-    padding-top: 20px;
-    font-size: 20px;
-    font-family:'Kurale', serif;
-    font-weight: 600;
-}
-
-.tetestimonial-footer span{
-    color: gold;
-}
-
-
-
-
-
-/* Find Us Section */
-
-.spacing_find_us{height: 2vh;}
-
-#find_us{
-    height: 100vh;
-    position: sticky;
-    top: 0;
-}
-
-.follow_us{
-    height: 10vh;
-    background: linear-gradient(360deg,#e9fbcf 10%,#1d7d8e 200%); 
-    border-radius: 100px;
-    margin-bottom: 3vh;
-}
-
-/* .background_image_3 {
-    position: absolute;
-    width: 100%;
-    height: 15vh;
-    z-index: -5;
-    margin: 0;
-    padding: 0;
-    object-fit: cover;
-    right: 0px;
-    opacity: 0.8;
-} */
-
-.follow_us .row{
-    height: 10vh;
-}
-
-.instagram, .facebook{
-    display: flex;
-    height: 10vh;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    border-radius: 100px;
-}
-
-.instagram:hover{
-    background-color: rgba(252, 175, 69, 0.85);
-}
-.facebook:hover{
-    background-color: rgba(66, 103, 178, 0.85);
-}
-
-.instagram > img,.facebook > img{
-    height: 5vh;
-    float: left;
-    padding-right: 20px;
-    align-items: center;
-}
-
-.instagram > p, .facebook > p{
-    margin-bottom: 0;
-    color: black;
-    font-family: 'Kurale', serif;
-    font-style: italic;
-    padding-left: 20px;
-    padding-top: 40px;
-}
-
-
-
-/* .find_us_body_container{
-    height: 85vh;
-} */
-
-.find_us_body{
-    height: 85vh;
-}
-
-.left_find_us{
-    padding-top: 5vh;
-    height: 85vh;
-    background-color: #CAFFC3;
-    border-radius: 10px;
-    font-family: 'Kurale', serif;
-    font-style: italic;
-}
-
-.left_find_us h3{
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    padding-top: 20px;
-}
-.left_find_us h5{
-    font-size: 14px;
-    padding-bottom: 15px;
-}
-.left_find_us .f_u_g{
-    line-height: 20px;
-}
-.left_find_us .f_u_g-adj{
-    letter-spacing: -1px;
-}
-.left_find_us p{
-    font-size: 14px;
-}
-.left_find_us hr{
-    width: 265px;
-}
-.left_find_us td{
-    padding-left: 25px;
-}
-
-.find_us_bold{
-    font-weight: 600;
-}
-#find_us_adj{
-    letter-spacing: 0.07em;
-    font-size: 13px;
-    text-transform: uppercase;
-    font-style: italic;
-    font-weight: 600;
-    text-decoration: underline;
-}
-
-.l_f_u_adj{
-    max-width: 265px;
-}
-
-
-
-.right_find_us{
-    border-radius: 10px;
-    padding: 0;
-    position: relative;
-}
-
-.right_find_us .row{
-    width: 100%;
-    height: 100%;
-}
-
-
-#gmap_canvas{
-    position: absolute;
-    z-index: -1;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 85vh;
-    border-radius: 10px;
-    object-fit: cover;
-}
-
-.g_maps_open{
-    position: absolute;
-    width: 100%;
-    text-decoration: none;
-    height: 100%;
-}
-.g_maps_open div{
-    position: absolute;
-    width: 100%;
-    top: 35%;
-}
-
-.g_maps_open i{
-    width: 100%;
-    font-size: 120px;
-    text-align: center;
-    color: white;
-    opacity: 50%;
-    -webkit-transition: opacity 0.15s ease-in;
-       -moz-transition: opacity 0.15s ease-in;
-         -o-transition: opacity 0.15s ease-in;
-}
-
-.g_maps_open:hover i{
-    opacity: 80%;
-}
-
-.g_maps_open p{
-    visibility: hidden;
-    text-align: center;
-    color: white;
-    width: 120px;
-    margin: 0 auto;
-    font-weight: 200;
-    text-transform: uppercase;
-    font-size: 12px;
-    padding-top: 10px;
-}
-
-.g_maps_open:hover p{
-    visibility: initial;
-}
 
 
 
@@ -859,6 +634,64 @@
         margin-bottom: 50px;
     }
 
+
+
+
+    /* Footer */
+
+
+#footer .footer_logo{
+    margin: 30px 0 30px 10%;
+}
+
+#footer .footer_logo_text{
+    font-size: 40px;
+}
+
+#footer .logo-image2{
+    width: 2rem;
+}
+
+#footer .about_us {
+    margin-top: 15px;
+}
+
+#footer .about_us h4{
+    font-size: 25px;
+    margin-bottom: 23px;
+}
+
+#footer .about_us h5{
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+#footer .follow-us {
+    margin-top: 30px;
+}
+
+#footer .follow-us h4 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+#footer .follow-us .fa{
+    font-size: 35px;
+}
+#footer .follow-us .fa-facebook{
+    margin-right: 60px;
+}
+
+#footer .payment {
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+
+#footer .payment h4 {
+    font-size: 25px;
+    margin-bottom: 23px;
+}
+
     
 
 
@@ -948,6 +781,54 @@
     .find_us_body th,td{
         font-size: 14px;
     }
+
+
+
+        /* Footer */
+
+
+    #footer .footer_logo_text{
+        font-size: 30px;
+    }
+
+    #footer .logo-image2{
+        width: 1.75rem;
+    }
+
+    #footer .about_us {
+        margin-top: 10px;
+    }
+
+    #footer .about_us h4{
+        font-size: 21px;
+        margin-bottom: 17px;
+    }
+
+    #footer .about_us h5{
+        font-size: 15px;
+    }
+
+
+    #footer .follow-us h4 {
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+
+    #footer .follow-us .fa{
+        font-size: 30px;
+    }
+
+
+    #footer .payment h4 {
+        font-size: 21px;
+    }
+
+    #footer .payment img{
+        width: 3.2rem;
+    }
+
+
+
 }
 
 @media (max-width: 475px) {
@@ -967,49 +848,54 @@
     }
 
 
+    /* Footer */
 
-    /* tetestimonial Section */
 
-    .tetestimonial-heading{
-        font-size: 50px;
-    }
-
-    .tetestimonial-text{
-        font-size: 16px;
-        max-width: 270px;
+    #footer .footer_logo_text{
+        font-size: 25px;
     }
 
-    .tetestimonial-footer{
-        font-size: 16px;
+    #footer .logo-image2{
+        width: 1.5rem;
     }
 
-}
+    #footer .about_us {
+        margin-top: 10px;
+    }
 
-@media (max-width: 773px) and (min-width: 768px),
-        (max-width: 280px){
+    #footer .about_us h4{
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
 
-    /* Find Us */
-    
-    .left_find_us h3{
-        padding-top: 15px;
+    #footer .about_us h5{
+        font-size: 13px;
+        margin-bottom: 11px;
     }
-    .left_find_us h5{
-        font-size: 12px;
-        padding-bottom: 10px;
+
+
+    #footer .follow-us h4 {
+        font-size: 18px;
+        margin-bottom: 15px;
     }
-    .left_find_us hr{
-        width: 180px;
+
+    #footer .follow-us .fa{
+        font-size: 25px;
     }
-    .left_find_us th{
-        font-size: 12px;
+
+
+    #footer .payment {
+        margin-top: 40px;
     }
-    .left_find_us td{
-        padding-left: 5px;
-        font-size: 11px;
+
+    #footer .payment h4 {
+        font-size: 18px;
+        margin-bottom: 18px;
     }
-    
-    #find_us_adj{
-        font-size: 11px;
-        width: 200px;
+
+    #footer .payment img{
+        width: 2.7rem;
     }
+
+
 }
