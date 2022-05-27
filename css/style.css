@@ -554,34 +554,11 @@
 @media (max-width: 2000px){
     
 
-    /* tetestimonial Section */
-
-    /* .tetestimonial-heading{
-        font-size: 100px;
-    }
-    
-    .tetestimonial-text{
-        font-size: 30px;
-        max-width: 470px;
-    }
-
-    .tetestimonial-footer{
-        font-size: 14px;
-    } */
 }
 
 @media (max-width: 1200px) {
 
-    /* Find Us Section */
-
-    .g_maps_open i{
-        opacity: 80%;
-    }
-    
-    
-    .g_maps_open p{
-        visibility: initial;
-    }
+  
 
 }
 
@@ -640,57 +617,57 @@
     /* Footer */
 
 
-#footer .footer_logo{
-    margin: 30px 0 30px 10%;
-}
+    #footer .footer_logo{
+        margin: 30px 0 30px 10%;
+    }
 
-#footer .footer_logo_text{
-    font-size: 40px;
-}
+    #footer .footer_logo_text{
+        font-size: 40px;
+    }
 
-#footer .logo-image2{
-    width: 2rem;
-}
+    #footer .logo-image2{
+        width: 2rem;
+    }
 
-#footer .about_us {
-    margin-top: 15px;
-}
+    #footer .about_us {
+        margin-top: 15px;
+    }
 
-#footer .about_us h4{
-    font-size: 25px;
-    margin-bottom: 23px;
-}
+    #footer .about_us h4{
+        font-size: 25px;
+        margin-bottom: 23px;
+    }
 
-#footer .about_us h5{
-    font-size: 18px;
-    margin-bottom: 12px;
-}
+    #footer .about_us h5{
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
 
-#footer .follow-us {
-    margin-top: 30px;
-}
+    #footer .follow-us {
+        margin-top: 30px;
+    }
 
-#footer .follow-us h4 {
-    font-size: 25px;
-    margin-bottom: 25px;
-}
+    #footer .follow-us h4 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
 
-#footer .follow-us .fa{
-    font-size: 35px;
-}
-#footer .follow-us .fa-facebook{
-    margin-right: 60px;
-}
+    #footer .follow-us .fa{
+        font-size: 35px;
+    }
+    #footer .follow-us .fa-facebook{
+        margin-right: 60px;
+    }
 
-#footer .payment {
-    margin-top: 50px;
-    padding-bottom: 40px;
-}
+    #footer .payment {
+        margin-top: 50px;
+        padding-bottom: 40px;
+    }
 
-#footer .payment h4 {
-    font-size: 25px;
-    margin-bottom: 23px;
-}
+    #footer .payment h4 {
+        font-size: 25px;
+        margin-bottom: 23px;
+    }
 
     
 
@@ -730,57 +707,9 @@
 
     
 
-    /* tetestimonial Section */
-
-    .tetestimonial-heading{
-        font-size: 75px;
-    }
-
-    .tetestimonial-text{
-        font-size: 18px;
-        max-width: 350px;
-    }
-
-    .tetestimonial-footer{
-        font-size: 18px;
-    }
-
-
-    /* Find Us Section */
-
-    #find_us{
-        height: 115vh;
-    }
-    .find_us_body{
-        height: 100vh;
-    }
-    .left_find_us{
-        height: 100vh;
-    }
-
-    #gmap_canvas{
-        /* height: 85vh; */
-    }
-
-    .g_maps_open div{
-        top: 25vh;
-    }
-
-    .g_maps_open i{
-        /* padding-top: 115px; */
-    }
 }
 
 @media (max-width: 575px) {
-
-
-    /* Find Us */
-    .find_us_body hr{
-        width: 250px;
-    }
-    .find_us_body th,td{
-        font-size: 14px;
-    }
 
 
 
