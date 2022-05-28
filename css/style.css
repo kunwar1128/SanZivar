@@ -414,10 +414,10 @@
     padding: 70px 0 50px 0;
 }
 
-#call_us h1, h3 {
+#call_us h1, #call_us h3 {
     margin-bottom: 50px;
 }
-#call_us button, h4{
+#call_us button, #call_us h4 {
     margin-bottom: 30px;
 }
 
@@ -458,7 +458,7 @@
     margin-left: 15px;
 }
 
-#footer .about_us h4, h5{
+#footer .about_us h4, #footer .about_us h5{
     text-align: center;
 }
 
