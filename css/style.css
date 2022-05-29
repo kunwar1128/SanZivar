@@ -369,8 +369,8 @@
     margin: 0;
     width: 85vw;
     margin-left: auto;
-    padding: 10vh;
-    padding-bottom: 7vh;
+    padding: 10vh 0 7vh 0;
+    text-align: justify;
 }
 
 .expect div {
@@ -379,23 +379,11 @@
     margin-right: auto;
 }
 
-.expect_header {
-    padding-bottom: 70px
-}
-.expect .row{
-    /* padding-bottom: 70px; */
-}
 
 .expect h1{
     text-align: center;
 }
 
-.expect .col-lg-6{
-    max-width: 500px;
-    margin-right: 0;
-    margin-left: 0;
-    margin: 0 50px 70px 50px;
-}
 
 
 
@@ -534,11 +522,55 @@
 
 @media (min-width: 992px) {
 
+
     /* Type of Services */
 
     .side_image_left {
         height: 100vh;
     }
+
+
+
+    /* Why Choose Us */
+
+    /* What Can you expect */
+
+    .expect .row{
+        width: 80%;
+        padding: 27px 0;
+    }
+
+    .expect .expect_header {
+        padding-bottom: 70px;
+    }
+
+    .expect .col-lg-6{
+        width: 47.25%;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .expect .c-l-1 {
+        margin-right: 5.5%;
+    }
+    
+    
+}
+
+
+@media (min-width: 1400px) {
+
+    /* Why Choose Us */
+
+    /* What Can you expect */
+
+
+    .expect .row{
+        width: 1000px;
+    }
+    
+    
 }
 
 
@@ -603,12 +635,22 @@
 
     .expect {
         width: 90vw;
-        padding: 3vh;
-        padding-bottom: 7vh;
+        /* padding: 3vh;
+        padding-bottom: 7vh; */
+        padding: 3vh 0 7vh 0;
+    }
+    .expect .expect_header {
+        padding: 5vh 0 8vh 0;
     }
 
-    .expect .col-lg-6{
-        margin-bottom: 50px;
+    .expect .expect_header h1 {
+        /* font-size: 35px; */
+    }
+
+
+    .expect .col-12{
+        width: 500px;
+        margin: 0 auto 40px auto;
     }
 
 
@@ -705,12 +747,29 @@
         /* top: -30vh; */
     }
 
+
+    /* Expect from us */
+    
+    .expect .col-12{
+        width: 450px;
+    }
+
     
 
 }
 
 @media (max-width: 575px) {
 
+
+    /* Expect from us */
+
+    .expect .expect_header h1 {
+        font-size: 27px;
+    }
+    
+    .expect .col-12{
+        width: 85%;
+    }
 
 
         /* Footer */
