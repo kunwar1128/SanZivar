@@ -1,9 +1,10 @@
 
-/* Frequently Asked Questions section (FAQs) */
-
 #header {
     z-index: 0;
 }
+
+/* Frequently Asked Questions section (FAQs) */
+
 
 #faqs {
     position: sticky;
