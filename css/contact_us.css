@@ -17,6 +17,10 @@
     text-align: center;
 }
 
+#contact_us .container .row{
+    margin: 0;
+}
+
 #contact_us .c_u {
     background-color: rgb(107, 135, 212);
     margin: 0;
