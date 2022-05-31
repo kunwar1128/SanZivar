@@ -165,7 +165,9 @@
 
                 <div class="col-md-6">
                     <!-- <label for="serviceDate" class="form-label">Preferred Date of Service</label> -->
-                    <input type="date" class="form-control" name="Preferred&nbsp;Date&nbsp;of&nbsp;Service" placeholder="Preferred Date of Service" id="serviceDate">
+                    <!-- <input type="date" class="form-control" name="Preferred&nbsp;Date&nbsp;of&nbsp;Service" placeholder="Preferred Date of Service" id="serviceDate"> -->
+                    <!-- <input placeholder="Preferred Date of Service" class="textbox-n" type="text" onfocus="(this.type='date')" id="date"> -->
+                    <input placeholder="Preferred Date of Service" class="form-control" type="text" onfocus="(this.type='date')" onblur="(this.value == '' ? this.type='text' : this.type='date')" id="serviceDate">
                 </div>
 
                 <div class="col-md-6">
