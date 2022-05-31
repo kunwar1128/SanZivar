@@ -117,6 +117,12 @@
             <h1>Contact Us</h1>
             <form class="row g-3" action="https://formsubmit.co/06c8d873e1e7262e3f993984f324fa25" method="POST">
 
+                <!-- Honeypot -->
+                <input type="text" name="_honey" style="display: none;">
+
+                <!-- Disable Captcha -->
+                <input type="hidden" name="_captcha" value="false">
+
                 <div class="col-md-6">
                     <label for="firstName" class="form-label">Name</label>
                     <input type="text" class="form-control" name="Name" id="firstName" required>
@@ -127,11 +133,11 @@
                     <div class="input-group">
                         <select class="form-select" name="Type of Service" id="inputGroupSelect02">
                           <option selected>Choose...</option>
-                          <option value="1">Post Construction</option>
-                          <option value="2">On Going Service</option>
-                          <option value="3">AirBNB Cleaning</option>
-                          <option value="4">Commercial Cleaning</option>
-                          <option value="5">Post Renovation</option>
+                          <option value="Post Construction">Post Construction</option>
+                          <option value="On Going Service">On Going Service</option>
+                          <option value="AirBNB Cleaning">AirBNB Cleaning</option>
+                          <option value="Commercial Cleaning">Commercial Cleaning</option>
+                          <option value="Post Renovation">Post Renovation</option>
                         </select>
                         <label class="input-group-text" for="inputGroupSelect02">Options</label>
                       </div>
