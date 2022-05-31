@@ -138,15 +138,16 @@
                 <input type="hidden" name="_next" value="https://kunwar1128.github.io/SanZivar/index.html">
 
                 <div class="col-md-6">
-                    <label for="firstName" class="form-label">Name</label>
-                    <input type="text" class="form-control" name="Name" id="firstName" required>
+                    <!-- <label for="firstName" class="form-label">Name</label> -->
+                    <input type="text" class="form-control" name="Name" id="firstName" placeholder="Name" required>
                 </div>
 
                 <div class="col-md-6">
-                    <label for="inputGroupSelect02" class="form-label">Type of Service</label>
+                    <!-- <label for="inputGroupSelect02" class="form-label">Type of Service</label> -->
                     <div class="input-group">
+                        
                         <select class="form-select" name="Type&nbsp;of&nbsp;Service" id="inputGroupSelect02">
-                          <option selected>Choose...</option>
+                          <option selected>Type of service:</option>
                           <option value="Post Construction">Post Construction</option>
                           <option value="On Going Service">On Going Service</option>
                           <option value="AirBNB Cleaning">AirBNB Cleaning</option>
@@ -158,33 +159,33 @@
                 </div>
 
                 <div class="col-md-6">
-                    <label for="squareFootage" class="form-label">Approxmately Square Footage (ft<sup>2</sup>)</label>
-                    <input type="number" class="form-control" name="Approxmately&nbsp;Square&nbsp;Footage" id="squareFootage">
+                    <!-- <label for="squareFootage" class="form-label">Approxmately Square Footage (ft<sup>2</sup>)</label> -->
+                    <input type="number" class="form-control" name="Approxmately&nbsp;Square&nbsp;Footage" placeholder="Approxmately Square Footage (ft<sup>2</sup>)" id="squareFootage">
                 </div>
 
                 <div class="col-md-6">
-                    <label for="serviceDate" class="form-label">Preferred Date of Service</label>
-                    <input type="date" class="form-control" name="Preferred&nbsp;Date&nbsp;of&nbsp;Service" id="serviceDate">
+                    <!-- <label for="serviceDate" class="form-label">Preferred Date of Service</label> -->
+                    <input type="date" class="form-control" name="Preferred&nbsp;Date&nbsp;of&nbsp;Service" placeholder="Preferred Date of Service" id="serviceDate">
                 </div>
 
-                <div class="col-md-4">
-                    <label for="phoneNumber" class="form-label">Phone Number</label>
+                <div class="col-md-6">
+                    <!-- <label for="phoneNumber" class="form-label">Phone Number</label> -->
                     <input type="tel" class="form-control" name="Phone&nbsp;Number" id="phoneNumber" placeholder="(444) 555-6666" oninput="this.value = phoneFormat(this.value)"> <!-- refer to javascript down below -->
                 </div>
 
-                <div class="col-md-8">
-                    <label for="emailInfo" class="form-label">E-mail</label>
-                    <input type="email" class="form-control" name="E-mail" id="emailInfo">
+                <div class="col-md-6">
+                    <!-- <label for="emailInfo" class="form-label">E-mail</label> -->
+                    <input type="email" class="form-control" name="E-mail" placeholder="E-mail" id="emailInfo">
                 </div>
 
                 <div class="col-md-6">
-                    <label for="callBackTime" class="form-label">Preferred Call Back Time</label>
+                    <!-- <label for="callBackTime" class="form-label">Preferred Call Back Time</label> -->
                     <input type="datetime-local" class="form-control" name="Call&nbsp;Back&nbsp;Time" id="callBackTime">
                 </div>
 
                 <div class="col-md-12">
-                    <label for="comments" class="form-label">Comments, questions?</label>
-                    <textarea class="form-control" name="Comments,&nbsp;questions" id="comments" cols="30" rows="5"></textarea>
+                    <!-- <label for="comments" class="form-label">Comments, questions?</label> -->
+                    <textarea class="form-control" name="Comments,&nbsp;questions" id="comments" placeholder="Comments, questions?" cols="30" rows="5"></textarea>
                 </div>
                 <div class="col-md-12">
                     <button type="submit" class="btn btn-primary">Submit <span> &rarr;</span></button>
