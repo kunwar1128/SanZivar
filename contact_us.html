@@ -114,8 +114,20 @@
     <section id="contact_us">
 
         <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Call Us: (647) 465-7440</h3>
+                </div>
+                <div class="col-md-6">
+                    <h3>Email: chera14@hotmail.com</h3>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid c_u">
             <h1>Contact Us</h1>
-            <form class="row g-3" action="https://formsubmit.co/06c8d873e1e7262e3f993984f324fa25" method="POST">
+            <form class="row g-3 m-0" action="https://formsubmit.co/06c8d873e1e7262e3f993984f324fa25" method="POST">
 
                 <!-- Honeypot -->
                 <input type="text" name="_honey" style="display: none;">
@@ -157,7 +169,7 @@
 
                 <div class="col-md-4">
                     <label for="phoneNumber" class="form-label">Phone Number</label>
-                    <input type="tel" class="form-control" name="Phone&nbsp;Number" id="phoneNumber" placeholder="(647) 556-1649" oninput="this.value = phoneFormat(this.value)">
+                    <input type="tel" class="form-control" name="Phone&nbsp;Number" id="phoneNumber" placeholder="(444) 555-6666" oninput="this.value = phoneFormat(this.value)"> <!-- refer to javascript down below -->
                 </div>
 
                 <div class="col-md-8">
@@ -175,7 +187,7 @@
                     <textarea class="form-control" name="Comments,&nbsp;questions" id="comments" cols="30" rows="5"></textarea>
                 </div>
                 <div class="col-md-12">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary">Submit <span> &rarr;</span></button>
                 </div>
             </form>
             
@@ -201,7 +213,7 @@
 
 
 
-    <section id="call_us">
+    <!-- <section id="call_us">
         <div class="container">
             <h1>Give Us a Call!</h1>
             <h3>Where spotless cleaning comes to your door</h3>
@@ -209,7 +221,7 @@
             <h4>Or</h4>
             <h3>Contact us here</h3>
         </div>
-    </section>
+    </section> -->
 
 
 
@@ -328,39 +340,6 @@
             document.getElementById("offcanvasClose").classList.remove("is-active");
         }
 
-
-
-
-        // var myTarget = document.querySelector('.follow_us');
-        // var logo_image = document.querySelector('.logo-image');
-
-        // window.addEventListener('scroll', function () {
-        //     var rect = myTarget.getBoundingClientRect();
-        //     y = rect.top;
-
-        //     if (y <= 85) {
-        //         logo_image.style.visibility = "hidden";
-        //     } else {
-        //         logo_image.style.visibility = "initial";
-        //     }
-
-        // })
-
-
-        // var myTarget1 = document.querySelector('.switching_zIndex');
-        // var logo_image1 = document.querySelector('#header');
-
-        // window.addEventListener('scroll', function () {
-        //     var rect = myTarget1.getBoundingClientRect();
-        //     y = rect.top;
-
-        //     if (y <= 85) {
-        //         logo_image1.style.zIndex = "0";
-        //     } else {
-        //         logo_image1.style.zIndex = "1";
-        //     }
-
-        // })
 
 
         function phoneFormat(input) {//returns (###) ###-####
