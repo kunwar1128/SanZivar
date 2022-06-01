@@ -42,8 +42,14 @@
     margin-right: auto;
 }
 
-#contact_us .c_u .form-label {
+#contact_us .c_u .form-control, #contact_us .c_u .form-select,
+#contact_us .c_u .t_o_s {
+    border-radius: 1.5rem;
     padding-left: 20px;
+}
+
+#contact_us .c_u .form-label {
+    padding-left: 30px;
     color: gray;
 }
 
@@ -57,6 +63,13 @@
 
 #contact_us #comments {
     height: 200px;
+}
+
+#contact_us .c_u button {
+    margin-top: 30px;
+    border-radius: 1.5rem;
+    max-width: 900px;
+    width: 100%;
 }
 
 #contact_us .c_u button span {
