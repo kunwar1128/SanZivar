@@ -67,6 +67,7 @@
 
 #contact_us .c_u button {
     margin-top: 30px;
+    margin-bottom: 150px;
     border-radius: 1.5rem;
     max-width: 900px;
     width: 100%;
@@ -96,6 +97,10 @@
         max-width: 1200px;
     }
 
+    #contact_us .c_u button {
+        max-width: 1200px;
+    }
+
 
 }
 
@@ -119,6 +124,11 @@
         margin-bottom: 80px;
         margin-top: 20px;
     }
+
+    #contact_us .c_u button {
+        margin-top: 20px;
+        margin-bottom: 75px;
+    }
 }
 
 
@@ -131,6 +141,11 @@
     #contact_us .c_u h1 {
         margin-bottom: 75px;
         margin-top: 15px;
+    }
+
+    #contact_us .c_u button {
+        margin-top: 10px;
+        margin-bottom: 40px;
     }
 
 
