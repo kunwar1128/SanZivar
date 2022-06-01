@@ -137,14 +137,13 @@
 
                 <input type="hidden" name="_next" value="https://kunwar1128.github.io/SanZivar/index.html">
 
-                <div class="col-md-6">
-                    <!-- <label for="firstName" class="form-label">Name</label> -->
-                    <input type="text" class="form-control" name="Name" id="firstName" placeholder="Name" required>
+                <div class="col-md-6 form-floating mb-3">
+                    <input type="text" class="form-control" name="Name" id="firstName" placeholder="Full Name" required>
+                    <label for="firstName" class="form-label">Name</label>
                 </div>
 
                 <div class="col-md-6">
-                    <!-- <label for="inputGroupSelect02" class="form-label">Type of Service</label> -->
-                    <div class="input-group">
+                    <div class="form-floating mb-3">
                         
                         <select class="form-select" name="Type&nbsp;of&nbsp;Service" id="inputGroupSelect02">
                           <option selected>Type of service:</option>
@@ -154,41 +153,39 @@
                           <option value="Commercial Cleaning">Commercial Cleaning</option>
                           <option value="Post Renovation">Post Renovation</option>
                         </select>
-                        <label class="input-group-text" for="inputGroupSelect02">Options</label>
-                      </div>
+                        <label for="inputGroupSelect02">Type of service:</label>
+
+                    </div>
                 </div>
 
-                <div class="col-md-6">
-                    <!-- <label for="squareFootage" class="form-label">Approxmately Square Footage (ft<sup>2</sup>)</label> -->
-                    <input type="number" class="form-control" name="Approxmately&nbsp;Square&nbsp;Footage" placeholder="Approxmately Square Footage (ft<sup>2</sup>)" id="squareFootage">
+                <div class="col-md-6 form-floating mb-3">
+                    <input type="number" class="form-control" name="Approxmately&nbsp;Square&nbsp;Footage" placeholder="Approxmately Square Footage" id="squareFootage">
+                    <label for="squareFootage" class="form-label">Approxmately Square Footage (ft<sup>2</sup>)</label>
                 </div>
 
-                <div class="col-md-6">
-                    <!-- <label for="serviceDate" class="form-label">Preferred Date of Service</label> -->
-                    <!-- <input type="date" class="form-control" name="Preferred&nbsp;Date&nbsp;of&nbsp;Service" placeholder="Preferred Date of Service" id="serviceDate"> -->
-                    <!-- <input placeholder="Preferred Date of Service" class="textbox-n" type="text" onfocus="(this.type='date')" id="date"> -->
-                    <!-- <input placeholder="Preferred Date of Service" class="form-control" type="text" onfocus="(this.type='date')" onblur="(this.value == '' ? this.type='text' : this.type='date')" id="serviceDate"> -->
-                    <input placeholder="Preferred Date of Service" class="form-control" type="text" onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}" id="date" />
+                <div class="col-md-6 form-floating mb-3">
+                    <input type="date" class="form-control" name="Preferred&nbsp;Date&nbsp;of&nbsp;Service" placeholder="Preferred Date of Service" id="serviceDate">
+                    <label for="serviceDate" class="form-label">Preferred Date of Service</label>
                 </div>
 
-                <div class="col-md-6">
-                    <!-- <label for="phoneNumber" class="form-label">Phone Number</label> -->
+                <div class="col-md-6 form-floating mb-3">
                     <input type="tel" class="form-control" name="Phone&nbsp;Number" id="phoneNumber" placeholder="(444) 555-6666" oninput="this.value = phoneFormat(this.value)"> <!-- refer to javascript down below -->
+                    <label for="phoneNumber" class="form-label">Phone Number</label>
                 </div>
 
-                <div class="col-md-6">
-                    <!-- <label for="emailInfo" class="form-label">E-mail</label> -->
+                <div class="col-md-6 form-floating mb-3">
                     <input type="email" class="form-control" name="E-mail" placeholder="E-mail" id="emailInfo">
+                    <label for="emailInfo" class="form-label">E-mail</label>
                 </div>
 
-                <div class="col-md-6">
-                    <!-- <label for="callBackTime" class="form-label">Preferred Call Back Time</label> -->
+                <div class="col-md-6 form-floating mb-3">
                     <input type="datetime-local" class="form-control" name="Call&nbsp;Back&nbsp;Time" id="callBackTime">
+                    <label for="callBackTime" class="form-label">Preferred Call Back Time</label>
                 </div>
 
-                <div class="col-md-12">
-                    <!-- <label for="comments" class="form-label">Comments, questions?</label> -->
+                <div class="col-md-12 form-floating mb-3">
                     <textarea class="form-control" name="Comments,&nbsp;questions" id="comments" placeholder="Comments, questions?" cols="30" rows="5"></textarea>
+                    <label for="comments" class="form-label">Comments, questions?</label>
                 </div>
                 <div class="col-md-12">
                     <button type="submit" class="btn btn-primary">Submit <span> &rarr;</span></button>
