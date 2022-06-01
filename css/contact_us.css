@@ -41,6 +41,10 @@
     color: rgb(252, 232, 118);
 }
 
+#contact_us .cl_u a:visited {
+    color: gold;
+}
+
 #contact_us .c_u {
     background-color: rgb(107, 135, 212);
     margin: 0;
