@@ -1,0 +1,11 @@
+
+#header {
+    z-index: 0;
+}
+
+
+#prices {
+    position: sticky;
+    height: 200vh;
+    background: url("../images/background_images/wallpaper_3.jpg") no-repeat fixed center;
+}
