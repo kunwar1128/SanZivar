@@ -30,8 +30,24 @@
     padding: 80px 30px;
 }
 
+#contact_us .c_u h1 {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+#contact_us .c_u .row {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #contact_us .c_u .form-label {
     padding-left: 20px;
+    color: gray;
+}
+
+#contact_us .c_u .t_o_s {
     color: gray;
 }
 
@@ -60,6 +76,16 @@
 
 
 
+@media (min-width: 2000px) {
+
+
+    #contact_us .c_u .row {
+        max-width: 1200px;
+    }
+
+
+}
+
 
 
 @media (max-width: 1200px) {
@@ -75,4 +101,24 @@
     #contact_us .c_u {
         width: 90vw;
     }
+
+    #contact_us .c_u h1 {
+        margin-bottom: 80px;
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 575px) {
+
+    #contact_us .c_u {
+        padding: 80px 15px;
+    }
+
+    #contact_us .c_u h1 {
+        margin-bottom: 75px;
+        margin-top: 15px;
+    }
+
+
 }
