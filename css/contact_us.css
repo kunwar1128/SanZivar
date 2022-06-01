@@ -51,10 +51,12 @@
 #contact_us .c_u .form-label {
     padding-left: 30px;
     color: gray;
+    opacity: 100%;
 }
 
 #contact_us .c_u .t_o_s {
     color: gray;
+    opacity: 90%;
 }
 
 /* #contact_us .c_u .square_foot {
