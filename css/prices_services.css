@@ -1,0 +1,15 @@
+
+#header {
+    z-index: 0;
+}
+
+
+#prices {
+    position: sticky;
+    height: 100vh;
+    /* background: url("../images/background_images/wallpaper_3.jpg") no-repeat center/cover; */
+}
+
+#prices .container-fluid {
+    padding: 0;
+}
