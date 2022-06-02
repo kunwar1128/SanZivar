@@ -6,10 +6,115 @@
 
 #prices {
     position: sticky;
-    height: 100vh;
-    /* background: url("../images/background_images/wallpaper_3.jpg") no-repeat center/cover; */
+    /* height: 100vh; */
+    background: url("../images/background_images/wallpaper_3.jpg") no-repeat center/cover;
 }
 
-#prices .container-fluid {
+/* #prices .background_image_2 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -6;
+    margin: 0;
     padding: 0;
+    object-fit: cover;
+} */
+
+/* #prices .background_image_2-2 {
+    position: absolute;
+    width: 100%;
+    top: 1269px;
+    height: 100vh;
+    z-index: -6;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+} */
+
+
+
+#prices .container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+#prices .row {
+    justify-content: center;
+    text-align: center;
+}
+
+
+#prices .card {
+    border: none;
+    height: 670px;
+    width: 350px;
+    margin: auto;
+    border-radius: 0 65px 0 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+#prices .card .card-body {
+    padding: 0px;
+}
+
+#prices .card .card-title {
+    border-radius: 0 55px 0 0;
+    margin: 0;
+    padding: 30px 10px;
+    background-color: rgba(44,59,90,255);
+    color: gold;
+}
+
+#prices .card .card-subtitle{
+    /* background-color: aqua; */
+    margin: 0;
+    padding: 40px 30px 20px 30px;
+    font-size: 14px;
+}
+
+#prices .card .card-subtitle span{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#prices .card .card-body .call_prices {
+    margin: 60px 0 15px 0;
+}
+
+#prices .card button {
+    margin: 0;
+    top: -38px;
+    position: relative;
+    border-radius: 40px;
+    /* border: 1.5px solid black; */
+    width: 150px;
+    padding: 10px 0 10px 0;
+}
+
+#price .card .row_des, #price .card .col_des {
+    margin: 0;
+}
+
+#prices .card .row_des .some_of {
+    color: rgb(46, 113, 247);
+    font-style: italic;
+    text-align: left;
+    padding-left: 90px;
+    padding-bottom: 15px;
+}
+
+#prices .card .row_des i {
+    margin: 0;
+    padding: 0 0px 0 20px;
+    color: rgb(83, 129, 222);
+    text-align: left;
+}
+
+#prices .card .row_des .card-text {
+    margin: 0;
+    padding-right: 10px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    text-align: left;
 }

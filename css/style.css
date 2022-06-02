@@ -226,7 +226,7 @@
     padding-bottom: 20px;
 }
 
-.card{
+#type_of_services .card{
     /* height: 250px;
     width: 275px; */
     height: 100%;
@@ -238,14 +238,14 @@
     background-color: rgba(92,114,163,255);
 }
 
-.card img{
+#type_of_services .card img{
     border-radius: 50px 50px 0 0;
     width: 100%;
     height: 50%;
     /* object-fit: cover; */
 }
 
-.card-text{
+#type_of_services .card-text{
     font-style: italic;
     text-decoration: underline;
     bottom: 0;
@@ -258,7 +258,7 @@
 #services a:hover{
     color: rgb(233, 233, 200);
 }
-.card-title{
+#type_of_services .card-title{
     color: gold;
 }
 
