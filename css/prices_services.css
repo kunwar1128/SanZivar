@@ -6,42 +6,32 @@
 
 #prices {
     position: sticky;
-    /* height: 100vh; */
     background: url("../images/background_images/wallpaper_3.jpg") no-repeat center/cover;
+    font-family: 'Kurale', serif;
 }
 
-/* #prices .background_image_2 {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    z-index: -6;
-    margin: 0;
-    padding: 0;
-    object-fit: cover;
-} */
-
-/* #prices .background_image_2-2 {
-    position: absolute;
-    width: 100%;
-    top: 1269px;
-    height: 100vh;
-    z-index: -6;
-    margin: 0;
-    padding: 0;
-    object-fit: cover;
-} */
 
 
 
 #prices .container{
-    padding-top: 80px;
+    padding-top: 150px;
     padding-bottom: 80px;
 
 }
 
+
+#prices .container .heading_1 {
+    margin-bottom: 120px;
+}
+
+
 #prices .row {
     justify-content: center;
     text-align: center;
+}
+
+#prices .col {
+    margin-bottom: 70px;
 }
 
 
@@ -117,4 +107,95 @@
     padding-bottom: 12px;
     font-size: 14px;
     text-align: left;
+}
+
+
+@media (min-width: 1400px) {
+
+    #prices .container .heading_1 {
+        margin-left: 31px;
+    }
+}
+
+
+
+@media (max-width: 1400px) {
+
+    #prices .container .heading_1 {
+        margin-left: 13px;
+    }
+
+    #prices .card {
+        width: 330px; 
+    }
+
+    #prices .card .row_des .some_of {
+        padding-left: 85px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+
+    #prices .container .heading_1 {
+        margin-left: 53px;
+    }
+
+    #prices .card {
+        width: 350px; 
+    }
+
+    #prices .card .row_des .some_of {
+        padding-left: 90px;
+    }
+}
+
+
+@media (max-width: 992px) {
+
+    #prices .container .heading_1 {
+        margin-left: 5px;
+    }
+
+    #prices .card {
+        width: 330px; 
+    }
+
+    #prices .card .row_des .some_of {
+        padding-left: 85px;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    #prices .container .heading_1 {
+        margin-left: 85px;
+    }
+
+    #prices .card {
+        width: 350px; 
+    }
+
+    #prices .card .row_des .some_of {
+        padding-left: 90px;
+    }
+}
+
+
+@media (max-width: 575px) {
+
+    #prices .container .heading_1 {
+        margin-left: 0px;
+        text-align: right;
+        margin-right: 15px;
+    }
+
+    #prices .card {
+        width: 320px; 
+    }
+
+    #prices .card .row_des .some_of {
+        padding-left: 83px;
+    }
 }
