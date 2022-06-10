@@ -184,6 +184,7 @@
 
 /* Type_of_services */
 
+
 #type_of_services{
     z-index: 1;
     /* background-color: rgb(0, 39, 89); */
@@ -194,6 +195,15 @@
     border-radius: 10px;
     /* box-shadow: 50px 50px 50px 50px rgb(44,59,90); */
 }
+
+#type_of_services .container1 {
+    margin-bottom: 80px;
+}
+
+#type_of_services .container2 {
+    padding-bottom: 50px;
+}
+
 
 
 .type_of_services_body, .slogan_container {
@@ -225,6 +235,7 @@
     /* height: 100%; */
     /* width: 100%; */
     text-align: center;
+    margin-top: 60px;
 
 }
 
@@ -239,10 +250,13 @@
     height: 100%;
     width: 70%;
     border-radius: 50px;
-    margin-right: auto;
+    /* margin-right: auto; */
     margin-left: auto;
+    width: auto;
+    text-align: right;
     /* padding: 0 !important; */
-    background-color: rgba(92,114,163,255);
+    background-color: rgba(44,59,90,0);
+    border: none;
 }
 
 #type_of_services .card img{
@@ -262,11 +276,12 @@
     color: gold;
     text-decoration: none;
 }
-#services a:hover{
+#services a:hover {
     color: rgb(233, 233, 200);
 }
 #type_of_services .card-title{
-    color: gold;
+    /* color: gold; */
+    padding-right: 10px;
 }
 
 
@@ -277,30 +292,53 @@
 
 #services .card-body{
     padding-top: 5%;
+    margin-top: 100px;  
+    border-right: 2px solid gold;
+    padding-right: 10px;
 }
+
 
 #services .col{
-    height: 25vh;
+    height: 15vh;
 }
+
+
+
+
+.container2 .text, .container2 .side_image_right {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.container2 .text {
+    /* width: 80%; */
+    /* text-align: right; */
+}
+
+
+.container2 .text h1 {
+    margin-bottom: 100px;
+}
+
+.container2 .text .slogan1 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
 .side_image_right{
-    text-align: center;
+    text-align: right;
 }
 
-.background_image_33{
+ .background_image_33{
 
-    /* float:  right; */
-    /* margin-top: 150px; */
-    /* margin-right: 100px; */
-
-    width: 75%;
+    width: 80%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-}
-.hehe1{
-    width: 100%;
-    height: 50vh;
+    box-shadow: 5px 0px 5px 0px rgb(17, 37, 77);
 }
 
 
@@ -642,9 +680,24 @@
 
     /* Type of Services */
 
-    .side_image_left {
-        height: 50vh;
+
+    #type_of_services .container1 {
+        margin-bottom: 80px;
     }
+
+    .side_image_left {
+        /* height: 50vh; */
+    }
+
+    .container2 .slogan1 {
+        margin-top: 100px;
+    }
+
+
+    .side_image_right{
+        text-align: center;
+    }
+
 
 
     /* carousel_photos */
@@ -773,6 +826,24 @@
     }
 
 
+
+    /* Type of Services */
+
+    .background_image_33{
+        width: 90%;
+    }
+
+    .container2 .text h1 {
+        /* width: 90%; */
+    }
+
+    .container2 .text .slogan1 {
+        width: 90%;
+    }
+
+
+
+
     /* Why choose Us */
 
     #why_choose_us{
@@ -813,6 +884,37 @@
     .welcome .welcome-text2{
         font-size: 22px;
     }
+
+
+
+    /* Type of services */
+
+    #services .card-body{
+        padding-top: 5%;
+        margin-top: 50px;  
+        border-right: 2px solid gold;
+        padding-right: 10px;
+    }
+
+
+    #services .col{
+        height: 9vh;
+    }
+
+
+    .background_image_33{
+        width: 100%;
+    }
+
+    .container2 .text h1 {
+        font-size: 23px;
+    }
+
+    .container2 .text .slogan1 {
+        width: 100%;
+    }
+
+
 
 
     /* Expect from us */
