@@ -29,10 +29,6 @@
     border-color: rgba(0, 0, 0, 0);
 }
 
-.logo-image {
-    width: 2.5em;
-    pointer-events: all;
-}
 
 .navbar-brand {
     margin-left: auto;
@@ -156,6 +152,13 @@
     font-style: italic;
 }
 
+.welcome .logo-image {
+    width: 3.5rem;
+    pointer-events: all;
+    margin-left: 25px;
+    padding-bottom: 17px;
+}
+
 .welcome-text2{
     /* font-family: 'Libre Baskerville', serif; */
     font-family: 'Kurale', serif;
@@ -166,6 +169,10 @@
 /* .welcome-text2-adj{
     letter-spacing: -2px;
 } */
+
+#header .call_header {
+    margin-right: 20px;
+}
 
 
 
@@ -590,18 +597,45 @@
 
 @media (max-width: 1200px) {
 
+
+    /* Header Welcome */
+
+    .welcome .welcome-text {
+        font-size: 60px;
+        margin-bottom: 0;
+    }
+
+    .welcome .logo-image {
+        width: 3rem;
+    }
+
+    .welcome .welcome-text2 {
+        font-size: 25px;
+    }
   
 
 }
 
 @media (max-width: 991px) {
 
-    /* Navbar */
 
     /* Header Welcome */
 
     .welcome > .col{
-        padding-bottom: 25vh;
+        padding-bottom: 7vh;
+    }
+
+    .welcome .welcome-text {
+        font-size: 50px;
+    }
+
+    .welcome .logo-image {
+        width: 2.75rem;
+        padding-bottom: 14px;
+    }
+
+    .welcome .welcome-text2 {
+        font-size: 23px;
     }
 
 
@@ -718,25 +752,23 @@
 
 @media (max-width: 767px) {
 
-    /* Navbar */
-
-    .logo-image {
-        width: 5em;
-    }
-
     /* Header Welcome */
 
     /* Header Section */
 
-    .welcome-text{
-        font-size: 32px;
+    .welcome .welcome-text{
+        font-size: 40px;
     }
 
-    .welcome-text2{
-        font-size: 13px;
+    .welcome .logo-image {
+        width: 2.4rem;
     }
 
-    .welcome-text2-adj{
+    .welcome .welcome-text2{
+        font-size: 20px;
+    }
+
+    .welcome .welcome-text2-adj{
         letter-spacing: -1px;
     }
 
@@ -759,6 +791,23 @@
 }
 
 @media (max-width: 575px) {
+
+
+    /* Header Welcome */
+
+    /* Header Section */
+
+    .welcome .welcome-text{
+        font-size: 35px;
+    }
+
+    .welcome .logo-image {
+        width: 2.1rem;
+    }
+
+    .welcome .welcome-text2{
+        font-size: 18px;
+    }
 
 
     /* Expect from us */
