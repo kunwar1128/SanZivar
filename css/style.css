@@ -213,7 +213,7 @@
     /* margin-left: auto;
     margin-right: auto; */
     font-family: 'Kurale', serif;
-    font-style: italic;
+    /* font-style: italic; */
     color: gold;
 }
 
@@ -229,14 +229,13 @@
     padding: 30px;
 }
 
-.type_of_services_body .text{
+.type_of_services_body .text {
     /* margin-top: 100px;
     margin-left: 100px; */
     /* height: 100%; */
     /* width: 100%; */
     text-align: center;
     margin-top: 60px;
-
 }
 
 .type_of_services_body h1{
@@ -290,7 +289,7 @@
     padding: 0;
 }
 
-#services .card-body{
+#services .card-body {
     padding-top: 5%;
     margin-top: 100px;  
     border-right: 2px solid gold;
@@ -328,11 +327,11 @@
 
 
 
-.side_image_right{
+.side_image_right {
     text-align: right;
 }
 
- .background_image_33{
+ .background_image_33 {
 
     width: 80%;
     height: 100%;
@@ -402,7 +401,35 @@
     position: sticky;
     /* top: 0vh; */
     background-color: rgba(44,59,90,255);
+    font-family: 'Kurale', serif;
 }
+
+
+
+.why_choose {
+    /* padding: 80px 0 40px 70px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.why_choose .text {
+    margin-top: 50px;
+}
+
+
+.why_choose .text a {
+    color: gold;
+}
+
+.why_choose .text a:hover {
+    color: rgb(253, 237, 148);
+}
+
+.why_choose .text p {
+    margin-bottom: 120px;
+    font-size: 23px;
+}
+
 
 
 
@@ -443,15 +470,33 @@
     position: sticky;
     background-color: rgb(70, 88, 123);
     color: gold;
-    text-align: center;
+    text-align: right;
     padding: 70px 0 50px 0;
+    font-family: 'Kurale', serif;
 }
 
-#call_us h1, #call_us h3 {
+#call_us .right {
+    padding-right: 50px;
+}
+
+#call_us .left {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#call_us h4 {
     margin-bottom: 50px;
 }
-#call_us button, #call_us h4 {
-    margin-bottom: 30px;
+
+
+#call_us .left button {
+    width: 500px;
+    border-radius: 30px;
+    height: 45px;
+}
+
+#call_us .left button, #call_us .left h4 {
+    margin-bottom: 40px;
 }
 
 
@@ -565,6 +610,14 @@
 
 }
 
+@media (max-width: 1200px) and (min-width: 992px) {
+    
+    .why_choose .text h1 {
+        font-size: 33px;
+    }
+
+}
+
 @media (min-width: 992px) {
 
 
@@ -577,6 +630,9 @@
 
 
     /* Why Choose Us */
+
+    
+
 
     /* What Can you expect */
 
@@ -689,6 +745,10 @@
         /* height: 50vh; */
     }
 
+    .why_choose .text h1 {
+        margin-bottom: 40px;
+    }
+
     .container2 .slogan1 {
         margin-top: 100px;
     }
@@ -739,6 +799,7 @@
         width: 500px;
         margin: 0 auto 40px auto;
     }
+
 
 
 
@@ -857,7 +918,16 @@
         width: 450px;
     }
 
-    
+
+    /* Call Us */
+
+    #call_us .right {
+        padding-right: 0px;
+    }
+
+    #call_us .left button {
+        width: 70vw;
+    }
 
 }
 
@@ -889,15 +959,19 @@
 
     /* Type of services */
 
-    #services .card-body{
+    #type_of_services .container1 h1 {
+        text-align: right;
+    }
+
+    #services .card-body {
         padding-top: 5%;
-        margin-top: 50px;  
+        margin-top: 25px;  
         border-right: 2px solid gold;
         padding-right: 10px;
     }
 
 
-    #services .col{
+    #services .col {
         height: 7.5vh;
     }
 
@@ -919,6 +993,10 @@
 
     /* Expect from us */
 
+    .why_choose .text p {
+        font-size: 19px;
+    }
+
     .expect .expect_header h1 {
         font-size: 27px;
     }
@@ -926,6 +1004,29 @@
     .expect .col-12{
         width: 85%;
     }
+
+
+
+
+    /* Call Us */
+
+    #call_us .container {
+        padding-right: 0;
+    }
+
+    #call_us .right {
+        padding-right: 9vw;
+    }
+
+    #call_us .right h4 {
+        font-size: 20px;
+    }
+
+    #call_us .left button {
+        width: 82vw;
+    }
+
+
 
 
         /* Footer */
