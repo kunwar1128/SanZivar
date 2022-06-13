@@ -110,6 +110,13 @@
 }
 
 
+/* Why Choose Us */
+
+#why_choose_us {
+    padding-top: 120px;
+}
+
+
 @media (min-width: 1400px) {
 
     #prices .container .heading_1 {
@@ -197,5 +204,11 @@
 
     #prices .card .row_des .some_of {
         padding-left: 83px;
+    }
+
+    /* Why Choose Us */
+
+    #why_choose_us {
+        padding-top: 40px;
     }
 }
