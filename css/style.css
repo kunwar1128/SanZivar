@@ -662,7 +662,7 @@
     /* -webkit-transition: background-color .4s, border .4s, box-shadow .4s;
     transition: background-color .4s, border .4s, box-shadow .4s; */
     background-color: rgb(49, 110, 234);
-    margin-top: 30px;
+    /* margin-top: 30px; */
     border-radius: 20px;
     width: 200px;
     height: 35px;
