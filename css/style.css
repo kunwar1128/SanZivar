@@ -198,8 +198,8 @@
 
 
 .welcome button:hover {
-    background-color: rgb(73, 133, 223);
-    border: 1px solid rgb(24, 131, 231);
+    background-color: rgb(34, 99, 197);
+    /* border: 1px solid rgb(24, 131, 231); */
     box-shadow: 2px 0px 4px #505050;
     transition: all .1s ease-in;
 }
@@ -588,6 +588,7 @@
 
 .expect button {
     border-radius: 0;
+    border-radius: 0 10px 10px 0;
     height: 35px;
     width: 80px;
     border: none;
@@ -602,9 +603,11 @@
 }
 
 
-.expect h1{
+.expect h1 {
     text-align: center;
 }
+
+
 
 
 
@@ -700,7 +703,7 @@
 
 #footer{
     position: sticky;
-    background-color: rgba(44,59,90,255);
+    background-color: rgb(44, 60, 90);
 }
 
 #footer a{
@@ -740,6 +743,10 @@
 #footer .about_us h5{
     font-size: 18px;
     margin-bottom: 12px;
+}
+
+#footer .about_us h5 a{
+    /* color: rgb(255, 255, 255); */
 }
 
 #footer .follow-us{
@@ -1205,6 +1212,15 @@
 
     .expect button {
         width: 90px;
+    }
+
+    .expect .non_jus {
+        text-align: left;
+        font-size: 19px;
+    }
+    
+    .expect .non_jus1 {
+        font-size: 15px;
     }
 
 
