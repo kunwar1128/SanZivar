@@ -3,12 +3,21 @@
     z-index: 0;
 }
 
+#header .welcome-text {
+    margin-bottom: 0;
+}
+
+#header .c_u {
+    margin-top: 60px;
+    font-style: normal;
+}
+
 /* Frequently Asked Questions section (FAQs) */
 
 
 #faqs {
     position: sticky;
-    background-color: rgb(80, 93, 119);
+    background-color: rgb(104, 115, 138);
     font-family: 'Kurale', serif;
     /* font-style: italic; */
     padding-bottom: 3rem;
@@ -73,7 +82,7 @@
     font-size: 22px;
     margin: 0;
     padding-left: 15px;
-    color: red;
+    color: rgb(33, 33, 33);
     transition: all .5s ease-in;
 }
 
@@ -85,12 +94,12 @@
 }
 
 #faqs .active {
-    background-color: red;
-    color: greenyellow;
+    background-color: rgb(4, 80, 138);
+    color: gold;
 }
 
 #faqs .active h5 {
-    color: greenyellow;
+    color: gold;
 }
 
 #faqs .panel {
