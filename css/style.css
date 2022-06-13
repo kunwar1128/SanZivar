@@ -668,8 +668,8 @@
 
 
 #call_us button:hover {
-    background-color: rgb(73, 133, 223);
-    border: 1px solid rgb(24, 131, 231);
+    background-color: rgb(24, 88, 184);
+    border: 1px solid rgb(0, 82, 158);
     box-shadow: 2px 0px 4px #505050;
     transition: all .1s ease-in;
 }
@@ -1201,6 +1201,10 @@
     
     .expect .col-12{
         width: 85%;
+    }
+
+    .expect button {
+        width: 90px;
     }
 
 
