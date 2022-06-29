@@ -336,7 +336,11 @@
 }
 #type_of_services .card-title{
     /* color: gold; */
-    padding-right: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right: 2px solid gold;
+    box-shadow: 8px 0px 5px -4px rgb(17, 37, 77);
 }
 
 
@@ -348,8 +352,8 @@
 #services .card-body {
     padding-top: 5%;
     margin-top: 100px;  
-    border-right: 2px solid gold;
-    box-shadow: 8px 0px 5px -4px rgb(17, 37, 77);
+    /* border-right: 2px solid gold;
+    box-shadow: 8px 0px 5px -4px rgb(17, 37, 77); */
     padding-right: 10px;
 }
 
@@ -657,7 +661,7 @@
 
 
 #call_us button {
-    color: rgb(215, 231, 49);
+    /* color: rgba(215, 231, 49,0); */
     color: gold;
     border: none;
     /* -webkit-transition: background-color .4s, border .4s, box-shadow .4s;
@@ -671,9 +675,9 @@
 }
 
 
+
 #call_us button:hover {
     background-color: rgb(24, 88, 184);
-    border: 1px solid rgb(0, 82, 158);
     box-shadow: 2px 0px 4px #505050;
     transition: all .1s ease-in;
 }
@@ -1166,7 +1170,7 @@
     #services .card-body {
         padding-top: 5%;
         margin-top: 25px;  
-        border-right: 2px solid gold;
+        /* border-right: 2px solid gold; */
         padding-right: 10px;
     }
 

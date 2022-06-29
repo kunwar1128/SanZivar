@@ -65,6 +65,10 @@
     color: gold;
 }
 
+#prices .card1 .card-title {
+    font-size: 18px;
+}
+
 #prices .card .card-subtitle{
     /* background-color: aqua; */
     margin: 0;
