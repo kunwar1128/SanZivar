@@ -971,7 +971,7 @@
     }
 
     .container2 .slogan1 {
-        margin-top: 100px;
+        margin-top: 65px;
     }
 
 
@@ -1209,6 +1209,10 @@
         font-size: 23px;
     }
 
+    .container2 .slogan1 {
+        margin-top: 45px;
+    }
+
     .container2 .text .slogan1 {
         width: 100%;
         /* text-align: right; */
@@ -1338,6 +1342,17 @@
     }
 
 
+
+
+    /* Why choose San Zivar? */
+
+    .container2 .slogan1 {
+        margin-top: 30px;
+    }
+
+
+
+    
     /* Footer */
 
 
