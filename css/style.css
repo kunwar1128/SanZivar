@@ -253,7 +253,7 @@
     position: sticky;
     /* top: 0; */
     border-radius: 10px;
-    /* box-shadow: 50px 50px 50px 50px rgb(44,59,90); */
+    /* box-shadow: 50px 50px 50px 50px rgb(44,59,90); */ 
 }
 
 #type_of_services .container1 {
@@ -497,6 +497,7 @@
     bottom: -20vh;
     top: 0;
     background-color: rgb(8, 37, 74);
+    background-image: linear-gradient(to right, rgb(0, 61, 140), rgb(8, 37, 74));
 }
 
 .carousel-indicators{
@@ -588,7 +589,8 @@
 .expect {
     color: gold;
     background-color: rgb(97, 144, 238);
-    border-radius: 15px 0 0 3px;
+    background-image: linear-gradient(to bottom right, rgb(120, 157, 231), rgb(55, 121, 255));
+    border-radius: 15px 0 0 0;
     margin: 0;
     width: 85vw;
     margin-left: auto;

@@ -18,6 +18,7 @@
 #faqs {
     position: sticky;
     background-color: rgb(104, 115, 138);
+    background-image: linear-gradient(to right, rgb(104, 115, 138), rgb(69, 95, 147));
     font-family: 'Kurale', serif;
     /* font-style: italic; */
     padding-bottom: 3rem;
