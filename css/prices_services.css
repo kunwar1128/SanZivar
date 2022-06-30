@@ -76,6 +76,8 @@
     font-size: 14px;
 }
 
+
+
 #prices .card .card-subtitle span{
     font-size: 25px;
     font-weight: bold;
@@ -93,6 +95,14 @@
     /* border: 1.5px solid black; */
     width: 150px;
     padding: 10px 0 10px 0;
+}
+
+#prices .card .contact_us_button {
+    /* top: 0; */
+    padding: 0;
+    height: 40px;
+    border: none;
+    border: 0.1px solid black;
 }
 
 #price .card .row_des, #price .card .col_des {
@@ -121,6 +131,41 @@
     font-size: 14px;
     text-align: left;
 }
+
+
+
+#prices .card .card-subtitle1{
+    /* font-size: 15px; */
+    margin-top: 15px;
+    margin-bottom: 63px;
+}
+
+#prices .card .card-subtitle2{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 75px;
+}
+
+#prices .card .card-subtitle3{
+    padding-bottom: 0;
+}
+
+#prices .row_carpet a {
+    /* font-size: 15px; */
+}
+
+
+#prices .card .min_hours {
+    color: rgb(83, 129, 222);
+    /* font-style: italic; */
+}
+
+
+#prices .card2 .card-title {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
 
 
 /* Why Choose Us */
