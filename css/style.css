@@ -917,6 +917,10 @@
     .welcome .welcome-text2 {
         font-size: 25px;
     }
+
+    .welcome-text3 {
+        font-size: 42px;
+    }
   
 
 }
@@ -941,6 +945,10 @@
 
     .welcome .welcome-text2 {
         font-size: 23px;
+    }
+
+    .welcome-text3 {
+        font-size: 35px;
     }
 
 
@@ -1095,6 +1103,10 @@
 
     .welcome .welcome-text2-adj{
         letter-spacing: -1px;
+    }
+
+    .welcome-text3 {
+        font-size: 28px;
     }
 
 
