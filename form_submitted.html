@@ -31,7 +31,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="css/hamburgers.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/contact_us.css">
+    <link rel="stylesheet" href="css/form_submitted.css">
 
 
 
@@ -75,7 +75,7 @@
                                             href="FAQs.html">FAQs</a>
                                     </li>
                                     <li class="nav-item" data-bs-toggle="offcanvas">
-                                        <a onclick="myFunction()" class="nav-link" href="#">Contact Us</a>
+                                        <a onclick="myFunction()" class="nav-link" href="contact_us.html">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
@@ -91,139 +91,15 @@
 
 
 
-    <section id="header">
-        <div class="header-content">
-            <img class="background_image_1" src="images/background_images/wallpaper_1.jpg" alt="Italian Trulli">
-            <div class="container">
-                <div class="welcome row align-items-center">
-                    <div class="col">
-                        <h1 class="welcome-text">San Zivar<img class="logo-image img-fluid" src="images/logo9.png"
-                            alt="SanZivar"></h1>
-                        <h3 class="welcome-text2">Cleaning Company</h3>
-                        <!-- <button class="call_header" href="tel:647-465-7440">Services</button><button class="call_estimate">Get Free Estimate</button> -->
-                        <h1 class="welcome-text3 c_u">Contact Us</h1>
-                    </div>
-                </div>
-            </div>
+    <section id="submitted">
+        <div>
+            <h1>Submitted Successfully <i class="fa-solid fa-circle-check"></i></h1>
+            <br><br><br>
+            <a href="index.html"><button>Click here to go back to San Zivar</button></a>
         </div>
     </section>
 
 
-
-
-    <section id="contact_us">
-
-        <div class="container-fluid cl_u">
-            <div class="row">
-                <div class="col-md-6 phone_s">
-                    <a href="tel:647-465-7440"><img src="images/phone.png" alt="phone">(647) 465-7440</a>
-                </div>
-                <div class="col-md-6 email_s">
-                    <a href="mailto: sanzivarcleaning@outlook.com"><img src="images/email.png" alt="email"><span>sanzivarcleaning@outlook.com</span></a>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="container-fluid c_u">
-            <h1>Contact Us</h1>
-            <form class="row g-3" action="https://formsubmit.co/06c8d873e1e7262e3f993984f324fa25" method="POST">
-
-                <!-- Honeypot -->
-                <input type="text" name="_honey" style="display: none;">
-
-                <!-- Disable Captcha -->
-                <input type="hidden" name="_captcha" value="false">
-
-                <input type="hidden" name="_next" value="https://kunwar1128.github.io/SanZivar/form_submitted.html">
-
-                <div class="col-md-6 form-floating mb-3">
-                    <input type="text" class="form-control" name="Name" id="firstName" placeholder="Full Name" required>
-                    <label for="firstName" class="form-label">Name</label>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="form-floating mb-3">
-                        
-                        <select class="form-select" name="Type&nbsp;of&nbsp;Service" id="inputGroupSelect02">
-                          <option selected>-- Select --</option>
-                          <option value="Post Construction">Post Construction</option>
-                          <option value="On Going Service">On Going Service</option>
-                          <option value="AirBNB Cleaning">AirBNB Cleaning</option>
-                          <option value="Commercial Cleaning">Commercial Cleaning</option>
-                          <option value="Post Renovation">Post Renovation</option>
-                          <option value="Post Renovation">Carpet and Upholstery Cleaning</option>
-                        </select>
-                        <label for="inputGroupSelect02" class="t_o_s">Type of service:</label>
-
-                    </div>
-                </div>
-
-                <div class="col-md-6 form-floating mb-3">
-                    <input type="number" class="form-control" name="Approxmately&nbsp;Square&nbsp;Footage" placeholder="Approxmately Square Footage" id="squareFootage">
-                    <label for="squareFootage" class="form-label square_foot">Approxmately Square Footage (ft<sup>2</sup>)</label>
-                </div>
-
-                <div class="col-md-6 form-floating mb-3">
-                    <input type="date" class="form-control" name="Preferred&nbsp;Date&nbsp;of&nbsp;Service" placeholder="Preferred Date of Service" id="serviceDate">
-                    <label for="serviceDate" class="form-label">Preferred Date of Service</label>
-                </div>
-
-                <div class="col-md-6 form-floating mb-3">
-                    <input type="tel" class="form-control" name="Phone&nbsp;Number" id="phoneNumber" placeholder="(444) 555-6666" oninput="this.value = phoneFormat(this.value)"> <!-- refer to javascript down below -->
-                    <label for="phoneNumber" class="form-label">Phone Number</label>
-                </div>
-
-                <div class="col-md-6 form-floating mb-3">
-                    <input type="email" class="form-control" name="E-mail" placeholder="E-mail" id="emailInfo">
-                    <label for="emailInfo" class="form-label">E-mail</label>
-                </div>
-
-                <div class="col-md-12 form-floating mb-3">
-                    <input type="datetime-local" class="form-control" name="Call&nbsp;Back&nbsp;Time" id="callBackTime">
-                    <label for="callBackTime" class="form-label">Preferred Call Back Time</label>
-                </div>
-
-                <div class="col-md-12 form-floating mb-3">
-                    <textarea class="form-control" name="Comments,&nbsp;questions" id="comments" placeholder="Comments, questions?"></textarea>
-                    <label for="comments" class="form-label">Comments, questions?</label>
-                </div>
-                <div class="col-md-12">
-                    <button type="submit" class="btn btn-primary">Submit <span> &rarr;</span></button>
-                </div>
-            </form>
-            
-            
-                
-        </div>
-        
-
-    </section>
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-    <!-- <section id="call_us">
-        <div class="container">
-            <h1>Give Us a Call!</h1>
-            <h3>Where spotless cleaning comes to your door</h3>
-            <a href="tel:6474657440"><button>Call Us</button></a>
-            <h4>Or</h4>
-            <h3>Contact us here</h3>
-        </div>
-    </section> -->
 
 
 
@@ -245,7 +121,7 @@
                     <h5><a href="index.html">Home</a></h5>
                     <h5><a href="prices_services.html">Prices & Services</a></h5>
                     <h5><a href="FAQs.html">FAQ</a></h5>
-                    <h5><a href="#">Contact Us</a></h5>
+                    <h5><a href="contact_us.html">Contact Us</a></h5>
                 </div>
                 <div class="col-12 col-lg-6 follow-us">
                     <h4>Follow Us</h4>

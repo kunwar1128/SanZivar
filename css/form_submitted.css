@@ -1,0 +1,30 @@
+
+#submitted {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    background-color: rgb(107, 135, 212);
+}
+
+#submitted div {
+    font-family: 'Kurale', serif;
+    text-align: center;
+    height: 100vh;
+    padding-top: 40vh;
+}
+
+#submitted div button {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(197, 206, 235);
+    height: 35px;
+    border: none;
+    border-radius: 1.5rem;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#submitted div button:hover {
+    background-color: rgb(73, 104, 188);
+    transition: all .1s ease-in;
+}
+
