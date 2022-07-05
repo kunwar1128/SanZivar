@@ -129,7 +129,7 @@
     position: sticky;
     top: 0;
     z-index: 1; /* It changes to 0 depending on the scroll (Javascript)*/
-    background-color: black;
+    background-color: rgb(58, 79, 120);
 }
 
 .header-content{
@@ -157,6 +157,7 @@
     z-index: -6;
     color: gold;
     font-family: 'Kurale', serif;
+    background-color: rgb(58, 79, 120);
 }
 
 .welcome-text{
