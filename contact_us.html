@@ -152,7 +152,7 @@
                           <option value="AirBNB Cleaning">AirBNB Cleaning</option>
                           <option value="Commercial Cleaning">Commercial Cleaning</option>
                           <option value="Post Renovation">Post Renovation</option>
-                          <option value="Carpet and Upholstery Cleaning" onclick="check()">Carpet and Upholstery Cleaning</option>
+                          <option value="Carpet and Upholstery Cleaning" onclick="check()"><span onclick="check()">Carpet and Upholstery Cleaning</span></option>
                         </select>
                         <label for="inputGroupSelect02" class="t_o_s">Type of service:</label>
 
@@ -359,7 +359,7 @@
 
         
 
-        setTimeout(function check() {
+        function check() {
             var select = document.getElementById('inputGroupSelect02').value;
             if(select == 'Carpet and Upholstery Cleaning') {
                 document.getElementById("squareFootage").disabled = true;
@@ -367,7 +367,7 @@
             else if(select != 'Carpet and Upholstery Cleaning'){
                 document.getElementById("squareFootage").disabled = false;
             }
-        }, 2000);
+        }
 
 
 
