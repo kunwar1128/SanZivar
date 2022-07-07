@@ -127,7 +127,7 @@
 
         <div class="container-fluid c_u">
             <h1>Contact Us</h1>
-            <form class="row g-3" action="https://formsubmit.co/sanzivarcleaning@outlook.com" method="POST">
+            <form class="row g-3" action="https://formsubmit.co/koningvoorschot1@gmail.com" method="POST">
 
                 <!-- Honeypot -->
                 <input type="text" name="_honey" style="display: none;">
@@ -145,7 +145,7 @@
                 <div class="col-md-6">
                     <div class="form-floating mb-3">
                         
-                        <select class="form-select" name="Type&nbsp;of&nbsp;Service" id="inputGroupSelect02">
+                        <select class="form-select" name="Type&nbsp;of&nbsp;Service" id="inputGroupSelect02" onclick="check()">
                           <option selected>-- Select --</option>
                           <option value="Post Construction">Post Construction</option>
                           <option value="On Going Service">On Going Service</option>
@@ -160,7 +160,7 @@
                 </div>
 
                 <div class="col-md-6 form-floating mb-3">
-                    <input type="number" class="form-control" name="Approxmately&nbsp;Square&nbsp;Footage" placeholder="Approxmately Square Footage" id="squareFootage">
+                    <input type="text" class="form-control" name="Approxmately&nbsp;Square&nbsp;Footage" placeholder="Approxmately Square Footage" id="squareFootage">
                     <label for="squareFootage" class="form-label square_foot">Approxmately Square Footage (ft<sup>2</sup>)</label>
                 </div>
 
@@ -351,6 +351,21 @@
             if (size>3) {input=input.slice(0,4)+") "+input.slice(4,11)}
             if (size>6) {input=input.slice(0,9)+"-" +input.slice(9)}
             return input;
+        }
+
+
+
+
+
+
+        function check() {
+            var select = document.getElementById('inputGroupSelect02').value;
+            if(select == 'Carpet and Upholstery Cleaning') {
+                document.getElementById("squareFootage").disabled = true;
+            }
+            else if(select != 'Carpet and Upholstery Cleaning'){
+                document.getElementById("squareFootage").disabled = false;
+            }
         }
 
 
