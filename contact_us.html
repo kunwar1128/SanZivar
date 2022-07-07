@@ -152,14 +152,14 @@
                           <option value="AirBNB Cleaning">AirBNB Cleaning</option>
                           <option value="Commercial Cleaning">Commercial Cleaning</option>
                           <option value="Post Renovation">Post Renovation</option>
-                          <option value="Carpet and Upholstery Cleaning" onclick="check()"><span onclick="check()">Carpet and Upholstery Cleaning</span></option>
+                          <option value="Carpet and Upholstery Cleaning">Carpet and Upholstery Cleaning</option>
                         </select>
                         <label for="inputGroupSelect02" class="t_o_s">Type of service:</label>
 
                     </div>
                 </div>
 
-                <div class="col-md-6 form-floating mb-3" onclick="check()">
+                <div class="col-md-6 form-floating mb-3">
                     <input type="number" class="form-control" name="Approxmately&nbsp;Square&nbsp;Footage" placeholder="Approxmately Square Footage" id="squareFootage" onclick="check()">
                     <label for="squareFootage" class="form-label square_foot">Approxmately Square Footage (ft<sup>2</sup>)</label>
                 </div>
@@ -362,10 +362,12 @@
         function check() {
             var select = document.getElementById('inputGroupSelect02').value;
             if(select == 'Carpet and Upholstery Cleaning') {
-                document.getElementById("squareFootage").disabled = true;
+                // document.getElementById("squareFootage").disabled = true;
+                document.getElementById("squareFootage").type = "text";
             }
             else if(select != 'Carpet and Upholstery Cleaning'){
-                document.getElementById("squareFootage").disabled = false;
+                // document.getElementById("squareFootage").disabled = false;
+                document.getElementById("squareFootage").type = "number";
             }
         }
 
