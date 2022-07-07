@@ -357,8 +357,9 @@
 
 
 
+        
 
-        function check() {
+        setTimeout(function check() {
             var select = document.getElementById('inputGroupSelect02').value;
             if(select == 'Carpet and Upholstery Cleaning') {
                 document.getElementById("squareFootage").disabled = true;
@@ -366,7 +367,7 @@
             else if(select != 'Carpet and Upholstery Cleaning'){
                 document.getElementById("squareFootage").disabled = false;
             }
-        }
+        }, 2000);
 
 
 
