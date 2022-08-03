@@ -24,10 +24,15 @@
 
 #contact_us .cl_u {
     text-align: center;
+    color: gold;
 }
 
 #contact_us .cl_u .row{
     margin: 0;
+}
+
+#contact_us .cl_u .cl_u_1 {
+    margin-bottom: 80px;
 }
 
 #contact_us .cl_u img {
@@ -251,6 +256,15 @@
 
 
 @media (max-width: 475px) {
+
+
+    #contact_us .cl_u .cl_u_1 {
+        margin-bottom: 70px;
+    }
+
+    #contact_us .cl_u .cl_u_1 h1 {
+        font-size: 21px;
+    }
 
     #contact_us .cl_u a {
         font-size: 21px;

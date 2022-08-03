@@ -183,6 +183,16 @@
     font-size: 50px;
 }
 
+#header .welcome-text4 {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+#header .welcome-text5{
+    font-size: 36px;
+}
+
 .welcome a {
     /* margin-top: 300px; */
 }
@@ -923,6 +933,14 @@
     .welcome-text3 {
         font-size: 42px;
     }
+
+    #header .welcome-text4 {
+        font-size: 27px;
+    }
+    
+    #header .welcome-text5{
+        font-size: 32px;
+    }
   
 
 }
@@ -951,6 +969,15 @@
 
     .welcome-text3 {
         font-size: 35px;
+    }
+
+
+    #header .welcome-text4 {
+        font-size: 22.2px;
+    }
+    
+    #header .welcome-text5{
+        font-size: 26.5px;
     }
 
 
@@ -1096,13 +1123,13 @@
 
     /* Header Section */
 
-    .welcome .welcome-text{
+    /* .welcome .welcome-text{
         font-size: 40px;
     }
 
     .welcome .logo-image {
         width: 2.4rem;
-    }
+    } */
 
     .welcome .welcome-text2{
         font-size: 20px;
@@ -1187,6 +1214,14 @@
 
     .welcome .welcome-text2{
         font-size: 22px;
+    }
+
+    #header .welcome-text4 {
+        font-size: 18px;
+    }
+    
+    #header .welcome-text5{
+        font-size: 21.6px;
     }
 
 
